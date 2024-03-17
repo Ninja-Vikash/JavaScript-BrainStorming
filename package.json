@@ -1,0 +1,13 @@
+{
+  "name": "javascript-collection",
+  "version": "1.0.0",
+  "description": "This is a javascript test collection",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Ninja Vikash",
+  "license": "ISC"
+}
