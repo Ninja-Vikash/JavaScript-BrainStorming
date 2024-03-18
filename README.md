@@ -24,6 +24,7 @@ But this is not very complicated to understand.<br> To simplify the understandin
 - Object
     - [What is an Object?](https://github.com/Ninja-Vikash/JavaScript-Collection?tab=readme-ov-file#what-is-an-object)
     - [Exercise](https://github.com/Ninja-Vikash/JavaScript-Collection?tab=readme-ov-file#exercise-object)
+- [Contribute](https://github.com/Ninja-Vikash/JavaScript-Collection?tab=readme-ov-file#contributions) 🤝
 
 ## Exercises
 ### Exercise Array
