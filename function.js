@@ -122,3 +122,24 @@
  */
 
 // ----------------------------------------------------------------------------
+/**
+ *  TEST : To understand implicit return in arrow function
+ */
+
+// ------> Sum of two numbers using normal function
+// function add (a, b){
+//     return a + b
+// }
+
+// ------> Sum of two numbers using arrow function with explicit return
+// let add = (a, b)=>{
+//     return (
+//         a + b
+//     )
+// }
+
+// ------> Sum of two numbers using arrow function with implicit return
+let add = (a, b) => a + b
+
+let sum = add(23, 23)
+console.log(sum)
