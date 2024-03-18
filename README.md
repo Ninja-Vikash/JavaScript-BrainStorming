@@ -51,6 +51,7 @@ But this is not very complicated to understand.<br> To simplify the understandin
 - [A arrow function to print welcome note](https://github.com/Ninja-Vikash/JavaScript-Collection?tab=readme-ov-file#a-arrow-function-to-print-welcome-note)
 - [Calculate total marks and grade](https://github.com/Ninja-Vikash/JavaScript-Collection?tab=readme-ov-file#calculate-total-marks-and-grade)
 - [For getting square of one and more values](https://github.com/Ninja-Vikash/JavaScript-Collection?tab=readme-ov-file#for-getting-square-of-one-and-more-values)
+- [To understand implicit return in arrow function]()
 
 ### Exercise Loop
 - [Construct a table for any number using loop](https://github.com/Ninja-Vikash/JavaScript-Collection?tab=readme-ov-file#construct-a-table-for-any-number-using-loop)
@@ -724,6 +725,34 @@ square(4);
  *  NOTE : Pass values in the function to get squares, If you don't pass
  *  any single value in the function. A message will appear on the console.
  */
+```
+#### To understand implicit return in arrow function
+```js
+// ------> Sum of two numbers using normal function
+function add (a, b){
+    return a + b
+}
+
+let sum = add(23, 23)
+console.log(sum)
+```
+```js
+// ------> Sum of two numbers using arrow function with explicit return
+let add = (a, b)=>{
+    return (
+        a + b
+    )
+}
+
+let sum = add(23, 23)
+console.log(sum)
+```
+```js
+// ------> Sum of two numbers using arrow function with implicit return
+let add = (a, b) => a + b
+
+let sum = add(23, 23)
+console.log(sum)
 ```
 ***
 ## Loop
