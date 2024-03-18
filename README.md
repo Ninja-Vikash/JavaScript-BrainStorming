@@ -37,6 +37,7 @@ But this is not very complicated to understand.<br> To simplify the understandin
 - [Replace any particular value from the array list](https://github.com/Ninja-Vikash/JavaScript-Collection?tab=readme-ov-file#replace-any-particular-value-from-the-array-list)
 - [Array destructuring *](https://github.com/Ninja-Vikash/JavaScript-Collection?tab=readme-ov-file#array-destructuring-)
 - [Case changing of a string elements in a array list](https://github.com/Ninja-Vikash/JavaScript-Collection?tab=readme-ov-file#case-changing-of-a-string-elements-in-a-array-list)
+- [Change the CASE of elements in a dynamic array](https://github.com/Ninja-Vikash/JavaScript-Collection?tab=readme-ov-file#case-changing-of-elements-in-a-dynamic-array)
 - [Get candidates who can apply for goverment job](https://github.com/Ninja-Vikash/JavaScript-Collection?tab=readme-ov-file#get-candidates-who-can-apply-for-goverment-job)
 - [Printing each individual element using for-each loop](https://github.com/Ninja-Vikash/JavaScript-Collection?tab=readme-ov-file#printing-each-individual-element-using-for-each-loop)
 - [Reverse Array](https://github.com/Ninja-Vikash/JavaScript-Collection?tab=readme-ov-file#reverse-array)
@@ -364,6 +365,34 @@ function toCase(change){
 }
 
 toCase("UPPER")
+// toCase("LOWER")
+// toCase("HYPER")
+```
+#### Case changing of elements in a dynamic array
+```js
+let studentName = [];
+
+function addStudent(...names) {
+  studentName.push(...names);
+}
+
+function toCase(change) {
+  if (change == "UPPER") {
+    let newlist = studentName.map((e) => e.toUpperCase());
+    console.log(newlist);
+  } else if (change == "LOWER") {
+    let newlist = studentName.map((e) => e.toLowerCase());
+    console.log(newlist);
+  } else {
+    console.log("Please enter a valid operation.");
+  }
+}
+
+// ------> Insert names here
+addStudent("vikash", "rajiv", "sanjay", "hari")
+
+// ------> Get your output value
+toCase("UPPER");
 // toCase("LOWER")
 // toCase("HYPER")
 ```

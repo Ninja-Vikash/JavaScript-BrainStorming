@@ -165,7 +165,7 @@
 
 // // ------> Deletation using SHIFT
 // function removeBegin (n){
-//     for (let i = 0; i < n; i++) {   
+//     for (let i = 0; i < n; i++) {
 //         studentName.shift()
 //     }
 // }
@@ -189,7 +189,6 @@
 // removeBegin(5)
 
 // studentName.splice(2,5)
-
 
 // ----------------------------------------------------------------------------
 /**
@@ -298,6 +297,37 @@
 
 // ----------------------------------------------------------------------------
 /**
+ *  TEST : To change the CASE of elements in a dynamic array.
+ */
+
+let studentName = [];
+
+function addStudent(...names) {
+  studentName.push(...names);
+}
+
+function toCase(change) {
+  if (change == "UPPER") {
+    let newlist = studentName.map((e) => e.toUpperCase());
+    console.log(newlist);
+  } else if (change == "LOWER") {
+    let newlist = studentName.map((e) => e.toLowerCase());
+    console.log(newlist);
+  } else {
+    console.log("Please enter a valid operation.");
+  }
+}
+
+// ------> Insert names here
+addStudent("vikash", "rajiv", "sanjay", "hari")
+
+// ------> Get your output value
+toCase("UPPER");
+// toCase("LOWER")
+// toCase("HYPER")
+
+// ----------------------------------------------------------------------------
+/**
  *  TEST : Filtering candidate who can apply for goverment job
  */
 
@@ -349,7 +379,7 @@
 
 // ----------------------------------------------------------------------------
 /**
- *  TEST : Print all values 
+ *  TEST : Print all values
  */
 
 // let nums = [1, 2, 3, 4, 5, 6, 7, 8, 9];
@@ -367,7 +397,7 @@
  *  TEST : Reverse array
  */
 
-let num = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+// let num = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 
 // By using reverse method
 // function reverse (){
@@ -378,16 +408,16 @@ let num = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 // reverse()
 
 // By using for loop
-function reverse (){
-    let newNum = []
-    
-    for (let i = num.length - 1; i >= 0; i--){
-            newNum.push(num[i])
-        }
-    console.log(newNum)
-}
+// function reverse (){
+//     let newNum = []
 
-reverse()
+//     for (let i = num.length - 1; i >= 0; i--){
+//             newNum.push(num[i])
+//         }
+//     console.log(newNum)
+// }
+
+// reverse()
 
 // ----------------------------------------------------------------------------
 /**
