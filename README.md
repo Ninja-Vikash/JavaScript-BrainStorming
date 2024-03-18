@@ -10,60 +10,58 @@ But this is not very complicated to understand.<br> To simplify the understandin
 
 ## What's Inside
 - Array
-    - What is an Array?
-    - Exercise
+    - [What is an Array?](https://github.com/Ninja-Vikash/JavaScript-Collection?tab=readme-ov-file#what-is-an-array)
+    - [Exercise](https://github.com/Ninja-Vikash/JavaScript-Collection?tab=readme-ov-file#exercise-array)
 - Conditionals
-    - If-else and Switch
-    - Exercise
+    - [If-else and Switch](https://github.com/Ninja-Vikash/JavaScript-Collection?tab=readme-ov-file#types-of-conditionals-in-javascript)
+    - [Exercise](https://github.com/Ninja-Vikash/JavaScript-Collection?tab=readme-ov-file#exercise-conditionals)
 - Function
-    - What is a Function?
-    - Exercise
+    - [What is a Function?](https://github.com/Ninja-Vikash/JavaScript-Collection?tab=readme-ov-file#what-is-a-function)
+    - [Exercise](https://github.com/Ninja-Vikash/JavaScript-Collection?tab=readme-ov-file#exercise-function)
 - Loop
-    - What is Loop?
-    - Exercise
+    - [What is Loop?](https://github.com/Ninja-Vikash/JavaScript-Collection?tab=readme-ov-file#what-is-loop)
+    - [Exercise](https://github.com/Ninja-Vikash/JavaScript-Collection?tab=readme-ov-file#exercise-loop)
 - Object
-    - What is an Object?
-    - Exercise
+    - [What is an Object?](https://github.com/Ninja-Vikash/JavaScript-Collection?tab=readme-ov-file#what-is-an-object)
+    - [Exercise](https://github.com/Ninja-Vikash/JavaScript-Collection?tab=readme-ov-file#exercise-object)
 
 ## Exercises
 ### Exercise Array
-- Generate table using array
-- Get even or odd numbers from the array list
-- Create counting table upto 100 using the array list of 10 elements
-- Insertion in Array
-- Deletation in Array
-- Basic methods in Array
-- Replace any particular value from the array list
-- Array destructuring *
-- Case changing of a string elements in a array list
-- Get candidates who can apply for goverment job
-- Printing each individual element using for-each loop
-- Reverse Array
+- [Generate table using array](https://github.com/Ninja-Vikash/JavaScript-Collection?tab=readme-ov-file#generate-table-using-array)
+- [Get even or odd numbers from the array list](https://github.com/Ninja-Vikash/JavaScript-Collection?tab=readme-ov-file#get-even-or-odd-numbers-from-the-array-list)
+- [Create counting table upto 100 using the array list of 10 elements](https://github.com/Ninja-Vikash/JavaScript-Collection?tab=readme-ov-file#create-counting-table-upto-100-using-the-array-list-of-10-elements)
+- [Insertion in Array](https://github.com/Ninja-Vikash/JavaScript-Collection?tab=readme-ov-file#insertion-in-array)
+- [Deletation in Array](https://github.com/Ninja-Vikash/JavaScript-Collection?tab=readme-ov-file#deletation-in-array)
+- [Basic methods in Array](https://github.com/Ninja-Vikash/JavaScript-Collection?tab=readme-ov-file#basic-methods-in-array)
+- [Replace any particular value from the array list](https://github.com/Ninja-Vikash/JavaScript-Collection?tab=readme-ov-file#replace-any-particular-value-from-the-array-list)
+- [Array destructuring *](https://github.com/Ninja-Vikash/JavaScript-Collection?tab=readme-ov-file#array-destructuring-)
+- [Case changing of a string elements in a array list](https://github.com/Ninja-Vikash/JavaScript-Collection?tab=readme-ov-file#case-changing-of-a-string-elements-in-a-array-list)
+- [Get candidates who can apply for goverment job](https://github.com/Ninja-Vikash/JavaScript-Collection?tab=readme-ov-file#get-candidates-who-can-apply-for-goverment-job)
+- [Printing each individual element using for-each loop](https://github.com/Ninja-Vikash/JavaScript-Collection?tab=readme-ov-file#printing-each-individual-element-using-for-each-loop)
+- [Reverse Array](https://github.com/Ninja-Vikash/JavaScript-Collection?tab=readme-ov-file#reverse-array)
 
 ### Exercise Conditionals
-- Eligiblity check for voting
-- Workout schedule
+- [Eligiblity check for voting](https://github.com/Ninja-Vikash/JavaScript-Collection?tab=readme-ov-file#eligiblity-check-for-voting)
+- [Workout schedule](https://github.com/Ninja-Vikash/JavaScript-Collection?tab=readme-ov-file#workout-schedule)
 
 ### Exercise Function
-- A normal function to print welcome note
-- A arrow function to print welcome note
-- Calculate total marks and grade
-- For getting square of one and more values
+- [A normal function to print welcome note](https://github.com/Ninja-Vikash/JavaScript-Collection?tab=readme-ov-file#a-normal-function-to-print-welcome-note)
+- [A arrow function to print welcome note](https://github.com/Ninja-Vikash/JavaScript-Collection?tab=readme-ov-file#a-arrow-function-to-print-welcome-note)
+- [Calculate total marks and grade](https://github.com/Ninja-Vikash/JavaScript-Collection?tab=readme-ov-file#calculate-total-marks-and-grade)
+- [For getting square of one and more values](https://github.com/Ninja-Vikash/JavaScript-Collection?tab=readme-ov-file#for-getting-square-of-one-and-more-values)
 
 ### Exercise Loop
-- Construct a table for any number using loop
-- For getting a square table
-- For getting exponential values of any range or a single value
-- Form an Infite loop
-- Look the usage of for-in loop
-- Usaage of for-of loop and for-each loop
-- Break and continue statement
+- [Construct a table for any number using loop](https://github.com/Ninja-Vikash/JavaScript-Collection?tab=readme-ov-file#construct-a-table-for-any-number-using-loop)
+- [For getting a square table](https://github.com/Ninja-Vikash/JavaScript-Collection?tab=readme-ov-file#for-getting-a-square-table)
+- [For getting exponential values of any range or a single value](https://github.com/Ninja-Vikash/JavaScript-Collection?tab=readme-ov-file#for-getting-exponential-values-of-any-range-or-a-single-value)
+- [Form an Infite loop](https://github.com/Ninja-Vikash/JavaScript-Collection?tab=readme-ov-file#form-an-infite-loop)
+- [Usage of for-in loop](https://github.com/Ninja-Vikash/JavaScript-Collection?tab=readme-ov-file#usage-of-for-in-loop)
+- [Usaage of for-of loop and for-each loop](https://github.com/Ninja-Vikash/JavaScript-Collection?tab=readme-ov-file#usaage-of-for-of-loop-and-for-each-loop)
+- [Break and continue statement](https://github.com/Ninja-Vikash/JavaScript-Collection?tab=readme-ov-file#break-and-continue-statement)
 
 ### Exercise Object
-- Create an object
-- Add new values and Update values in the existing object at once
-- Common array operations with an array of objects
-- For finding all the available types in PokeDex
+- [Create an object](https://github.com/Ninja-Vikash/JavaScript-Collection?tab=readme-ov-file#create-an-object)
+- [Add new values and Update values in the existing object at once](https://github.com/Ninja-Vikash/JavaScript-Collection?tab=readme-ov-file#add-new-values-and-update-values-in-the-existing-object-at-once)
 
 ## Array
 ### What is an array?
@@ -1008,3 +1006,49 @@ let update = {
 StudentData = {...StudentData, ...newData, ...update}
 console.log(StudentData)
 ```
+
+***
+
+### Contributions
+This repository is open to collaborate, and your contributions are welcome! If you spot an error, have a suggestion, or want to add new content, feel free to submit a pull request. Let's make this guide a vibrant and up-to-date resource for the entire community
+
+**Fork the Repository**
+
+Navigate to the repository you want to contribute to on GitHub and click the "Fork" button in the top right corner. This creates a copy of the repository in your GitHub account.
+
+[Fork: Javascript Collection](https://github.com/Ninja-Vikash/JavaScript-Collection/fork)
+
+**Clone the Repository**
+
+Clone your forked repository to your local machine using the `git clone` command. Replace `username` with your GitHub username and `repository` with the name of the repository:
+```bash
+git clone https://github.com/username/repository.git
+```
+
+**Create a New Branch**
+
+Create a new branch for your changes. It's a good practice to create a new branch for each feature or bug fix you're working on
+```bash
+git checkout -b new-feature
+```
+
+**Make Changes**
+
+Make your desired changes to the codebase using your preferred text editor or IDE.
+
+**Commit Changes**
+
+Once you've made your changes, stage and commit them to your local repository:
+```bash
+git add .
+git commit -m "Brief description of your changes"
+```
+
+**Push Changes**
+
+Push your changes to your forked repository on GitHub:
+```bash
+git push origin new-feature
+```
+
+#### Open to Collabrate 🤝
