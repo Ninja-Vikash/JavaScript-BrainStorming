@@ -64,6 +64,7 @@ But this is not very complicated to understand.<br> To simplify the understandin
 ### Exercise Object
 - [Create an object](https://github.com/Ninja-Vikash/JavaScript-Collection?tab=readme-ov-file#create-an-object)
 - [Add new values and Update values in the existing object at once](https://github.com/Ninja-Vikash/JavaScript-Collection?tab=readme-ov-file#add-new-values-and-update-values-in-the-existing-object-at-once)
+- [Create an object for student marks entry and get total marks, grade]()
 
 ## Array
 ### What is an array?
@@ -1035,6 +1036,44 @@ let update = {
 
 StudentData = {...StudentData, ...newData, ...update}
 console.log(StudentData)
+```
+#### Create an object for student marks entry and get total marks, grade
+```js
+function studentEntry(...marks) {
+  let MARK = [];
+  MARK.push(...marks);
+
+  this.result = function () {
+    if (MARK.length > 5 || MARK.length < 5) {
+      console.log("PLEASE CHECK YOUR INPUT MARKS MAY BE YOU HAVE ENTERED MORE OR LESS INPUTS");
+    } else {
+
+      let total = MARK.reduce((a, b) => a + b);
+      let grade = total / 5;
+
+      if (grade >= 0 && grade < 33) {
+        console.log(`YOUR SCORE IS : ${total} AND GRADE : F`);
+      } else if (grade >= 33 && grade < 45) {
+        console.log(`YOUR SCORE IS : ${total} AND GRADE : D`);
+      } else if (grade >= 45 && grade < 55) {
+        console.log(`YOUR SCORE IS : ${total} AND GRADE : C`);
+      } else if (grade >= 55 && grade < 65) {
+        console.log(`YOUR SCORE IS : ${total} AND GRADE : B`);
+      } else if (grade >= 65 && grade < 75) {
+        console.log(`YOUR SCORE IS : ${total} AND GRADE : A`);
+      } else {
+        console.log(`YOUR SCORE IS : ${total} AND GRADE : A+`);
+      }
+    }
+  };
+}
+
+let Ajay = new studentEntry(30, 30, 30, 30);
+// Ajay.result()
+let Rohit = new studentEntry(67, 56, 78, 56, 77);
+Rohit.result()
+let Sanjay = new studentEntry(90, 79, 56, 45, 44, 56);
+// Sanjay.result()
 ```
 
 ***
