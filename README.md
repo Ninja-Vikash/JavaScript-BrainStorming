@@ -1,14 +1,14 @@
-##### JavaScript Test Collection
+##### JavaScript Test Collection 📚
 # Getting Started
-**Javascript** is one of the most important asset for **Web Developers.**
+**Javascript** is one of the most important assets for **Web Developers.**
 
-But this is not very complicated to understand.<br> To simplify the understanding of **JavaScript**, I have created some demos, Which will boost your knowledge in **JavaScript**. 
+But this is not very complicated to understand.<br> To simplify the understanding of **JavaScript**, I have created some demos, That will boost your knowledge in **JavaScript**💡. 
 
 > [!NOTE]\
-> If you are a **PRO** this repo will helpful in your revision.\
-> If you are a **BEGINNER** this repo will helpful to learn.
+> If you are a **PRO** this repo will be helpful in your revision.\
+> If you are a **BEGINNER** this repo will help to learn.
 
-## What's Inside
+## What's Inside 🎁
 - Array
     - [What is an Array?](https://github.com/Ninja-Vikash/JavaScript-Collection?tab=readme-ov-file#what-is-an-array)
     - [Exercise](https://github.com/Ninja-Vikash/JavaScript-Collection?tab=readme-ov-file#exercise-array)
@@ -26,19 +26,19 @@ But this is not very complicated to understand.<br> To simplify the understandin
     - [Exercise](https://github.com/Ninja-Vikash/JavaScript-Collection?tab=readme-ov-file#exercise-object)
 - [Contribute](https://github.com/Ninja-Vikash/JavaScript-Collection?tab=readme-ov-file#contributions) 🤝
 
-## Exercises
+## Exercises 🏋️‍♂️
 ### Exercise Array
 - [Generate table using array](https://github.com/Ninja-Vikash/JavaScript-Collection?tab=readme-ov-file#generate-table-using-array)
 - [Get even or odd numbers from the array list](https://github.com/Ninja-Vikash/JavaScript-Collection?tab=readme-ov-file#get-even-or-odd-numbers-from-the-array-list)
-- [Create counting table upto 100 using the array list of 10 elements](https://github.com/Ninja-Vikash/JavaScript-Collection?tab=readme-ov-file#create-counting-table-upto-100-using-the-array-list-of-10-elements)
+- [Create counting table up to 100 using the array list of 10 elements](https://github.com/Ninja-Vikash/JavaScript-Collection?tab=readme-ov-file#create-counting-table-upto-100-using-the-array-list-of-10-elements)
 - [Insertion in Array](https://github.com/Ninja-Vikash/JavaScript-Collection?tab=readme-ov-file#insertion-in-array)
 - [Deletation in Array](https://github.com/Ninja-Vikash/JavaScript-Collection?tab=readme-ov-file#deletation-in-array)
 - [Basic methods in Array](https://github.com/Ninja-Vikash/JavaScript-Collection?tab=readme-ov-file#basic-methods-in-array)
 - [Replace any particular value from the array list](https://github.com/Ninja-Vikash/JavaScript-Collection?tab=readme-ov-file#replace-any-particular-value-from-the-array-list)
 - [Array destructuring *](https://github.com/Ninja-Vikash/JavaScript-Collection?tab=readme-ov-file#array-destructuring-)
-- [Case changing of a string elements in a array list](https://github.com/Ninja-Vikash/JavaScript-Collection?tab=readme-ov-file#case-changing-of-a-string-elements-in-a-array-list)
+- [Case changing of a string elements in an array list](https://github.com/Ninja-Vikash/JavaScript-Collection?tab=readme-ov-file#case-changing-of-a-string-elements-in-a-array-list)
 - [Change the CASE of elements in a dynamic array](https://github.com/Ninja-Vikash/JavaScript-Collection?tab=readme-ov-file#case-changing-of-elements-in-a-dynamic-array)
-- [Get candidates who can apply for goverment job](https://github.com/Ninja-Vikash/JavaScript-Collection?tab=readme-ov-file#get-candidates-who-can-apply-for-goverment-job)
+- [Get candidates who can apply for government job](https://github.com/Ninja-Vikash/JavaScript-Collection?tab=readme-ov-file#get-candidates-who-can-apply-for-government-job)
 - [Printing each individual element using for-each loop](https://github.com/Ninja-Vikash/JavaScript-Collection?tab=readme-ov-file#printing-each-individual-element-using-for-each-loop)
 - [Reverse Array](https://github.com/Ninja-Vikash/JavaScript-Collection?tab=readme-ov-file#reverse-array)
 
@@ -57,7 +57,7 @@ But this is not very complicated to understand.<br> To simplify the understandin
 - [Construct a table for any number using loop](https://github.com/Ninja-Vikash/JavaScript-Collection?tab=readme-ov-file#construct-a-table-for-any-number-using-loop)
 - [For getting a square table](https://github.com/Ninja-Vikash/JavaScript-Collection?tab=readme-ov-file#for-getting-a-square-table)
 - [For getting exponential values of any range or a single value](https://github.com/Ninja-Vikash/JavaScript-Collection?tab=readme-ov-file#for-getting-exponential-values-of-any-range-or-a-single-value)
-- [Form an Infite loop](https://github.com/Ninja-Vikash/JavaScript-Collection?tab=readme-ov-file#form-an-infite-loop)
+- [Form an Infinite loop](https://github.com/Ninja-Vikash/JavaScript-Collection?tab=readme-ov-file#form-an-infinite-loop)
 - [Usage of for-in loop](https://github.com/Ninja-Vikash/JavaScript-Collection?tab=readme-ov-file#usage-of-for-in-loop)
 - [Usaage of for-of loop and for-each loop](https://github.com/Ninja-Vikash/JavaScript-Collection?tab=readme-ov-file#usaage-of-for-of-loop-and-for-each-loop)
 - [Break and continue statement](https://github.com/Ninja-Vikash/JavaScript-Collection?tab=readme-ov-file#break-and-continue-statement)
@@ -73,13 +73,13 @@ An Array is a collection of data in a queue.
 ```js
 let array = [1, 2, 3, 4, 5, 6, 7, 8, 9]
 ```
-Each value inside of an array known as an `element`. And each element has their own `index`.
+Each value inside of an array is known as an `element`. And each element has its own `index`.
 ```js
 let array = [1, 2, 3, 4, 5, 6, 7, 8, 9]
 
 array.indexOf(2)    // OUTPUT : 1
 ```
-In array index value starts from `0(zero)`
+In the array index value starts from `0(zero)`
 
 ### Exercise Array
 #### Generate table using array.
@@ -96,7 +96,7 @@ function Table(n){
     });
 }
 
-// Pass value for getting table
+// Pass value for getting the table
 Table(132)
 ```
 
@@ -166,12 +166,12 @@ let finalArr = arr1.concat(...arr2,arr3,arr4,arr5,arr6,arr7,arr8,arr9,arr10);
 console.log(finalArr)
 
 /**
- *  NOTE : For concatanation I used (...)spread operator
+ *  NOTE : For concatenation, I used the (...)spread operator
  */
 ```
 #### Insertion in Array
 ```js
-// ------> Inserting in a empty array
+// ------> Inserting in an empty array
 
 let arr = []
 function insert (...val){
@@ -182,7 +182,7 @@ insert("Hello", "World", "!")
 console.log(arr)
 ```
 ```js
-// ------> Inserting in a existing array using PUSH
+// ------> Inserting in an existing array using PUSH
 let studentName = ["Vikash", "Anuj", "Shiv", "Rohit", "Sanjay"];
 
 const add = (...value)=>{
@@ -344,11 +344,11 @@ ToLower()
 
 /**
  *  NOTE : We can't change the existing Array's string case
- *  but we can form new array using the old array.
+ *  but we can form a new array using the old array.
  */
 ```
 ```js
-// -------> Using single function
+// -------> Using a single function
 let studentName = ["Vikash", "Anuj", "Shiv", "Rohit", "Sanjay"];
 
 function toCase(change){
@@ -399,7 +399,7 @@ toCase("UPPER");
 // toCase("HYPER")
 ```
 
-#### Get candidates who can apply for goverment job
+#### Get candidates who can apply for government job
 ```js
 // ------> Candidate data
 let candidate = [
@@ -709,7 +709,7 @@ function square(...value) {
   let values = [];
   values.push(...value);
   if (values.length == 0) {
-    console.log("PLEASE ENTER ATLEAST ONE VALUE TO GET RESULT!");
+    console.log("PLEASE ENTER AT LEAST ONE VALUE TO GET RESULT!");
   } else {
     values.forEach((element) => {
       console.log(`SQUARE OF ${element} is ${element ** 2}`);
@@ -882,14 +882,14 @@ sqTable(10)
 ```js
 function power(expo, start, end) {
   if (start == undefined) {
-    console.log("PLEASE PASS ATLEAST TWO VALUES");
+    console.log("PLEASE PASS AT LEAST TWO VALUES");
   } else if (end == undefined) {
     for (let i = start; i <= start; i++) {
-      console.log(`SQAURE OF ${i} = ${i ** expo}`);
+      console.log(`SQUARE OF ${i} = ${i ** expo}`);
     }
   } else {
     for (let i = start; i <= end; i++) {
-      console.log(`SQAURE OF ${i} = ${i ** expo}`);
+      console.log(`SQUARE OF ${i} = ${i ** expo}`);
     }
   }
 }
@@ -900,19 +900,19 @@ power(2, 17, 24);
 
 /**
  *  NOTE : power(exponent_value, start, end)
- *  We can get exponent value of any single value
+ *  We can get the exponent value of any single value
  *  By passing only two values as :
  *  power(exponent_value, start)
  */
 ```
 
-#### Form an Infite loop
+#### Form an Infinite loop
 ```js
 // ------> Using while loop
 let i = 1
 while (i<=10) {
     console.log(i*3);
-    // Declare an afterthought to avoid infinte loop 
+    // Declare an afterthought to avoid infinite loop 
 }
 ```
 ```js
@@ -920,7 +920,7 @@ while (i<=10) {
 let i = 1
 do {
     console.log(i*3);
-    // Declare an afterthought to avoid infinte loop 
+    // Declare an afterthought to avoid infinite loop 
 } while (i<=10);
 ```
 #### Usage of for-in loop
@@ -954,7 +954,7 @@ ARRAY.forEach(element => {
 });
 
 /**
- *  NOTE : for-of and forEach loop specially used in array for iterating
+ *  NOTE : for-of and forEach loop specially used in the array for iterating
  */
 ```
 #### Break and Continue statement
@@ -982,7 +982,7 @@ for (let i = 1; i <= 10; i++) {
 
 /**
  *  NOTE : break statement stops the chain
- *  while continue statement continues the chain excluding the condition
+ *  while the continue statement continues the chain excluding the condition
  */
 ```
 ***
@@ -1108,13 +1108,13 @@ let Sanjay = new studentEntry(90, 79, 56, 45, 44, 56);
 ***
 
 ### Contributions
-This repository is open to collaborate, and your contributions are welcome! If you spot an error, have a suggestion, or want to add new content, feel free to submit a pull request. Let's make this guide a vibrant and up-to-date resource for the entire community
+This repository is open for collaboration, and your contributions are welcome! If you spot an error, have a suggestion, or want to add new content, feel free to submit a pull request. Let's make this guide a vibrant and up-to-date resource for the entire community
 
 **Fork the Repository**
 
 Navigate to the repository you want to contribute to on GitHub and click the "Fork" button in the top right corner. This creates a copy of the repository in your GitHub account.
 
-[Fork: Javascript Collection](https://github.com/Ninja-Vikash/JavaScript-Collection/fork)
+[Javascript Collection](https://github.com/Ninja-Vikash/JavaScript-Collection/fork)
 
 **Clone the Repository**
 
@@ -1149,4 +1149,4 @@ Push your changes to your forked repository on GitHub:
 git push origin new-feature
 ```
 
-#### Open to Collabrate 🤝
+#### Open to Collaborate 🤝
