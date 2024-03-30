@@ -10,62 +10,62 @@ But this is not very complicated to understand.<br> To simplify the understandin
 
 ## What's Inside 🎁
 - Array
-    - [What is an Array?](https://github.com/Ninja-Vikash/JavaScript-Collection?tab=readme-ov-file#what-is-an-array)
-    - [Exercise](https://github.com/Ninja-Vikash/JavaScript-Collection?tab=readme-ov-file#exercise-array)
+    - [What is an Array?](https://github.com/Ninja-Vikash/JavaScript-Collection/blob/main/README.md#array)
+    - [Exercise](https://github.com/Ninja-Vikash/JavaScript-Collection/blob/main/README.md#exercise-array)
 - Conditionals
-    - [If-else and Switch](https://github.com/Ninja-Vikash/JavaScript-Collection?tab=readme-ov-file#types-of-conditionals-in-javascript)
-    - [Exercise](https://github.com/Ninja-Vikash/JavaScript-Collection?tab=readme-ov-file#exercise-conditionals)
+    - [If-else and Switch](https://github.com/Ninja-Vikash/JavaScript-Collection/blob/main/README.md#conditionals)
+    - [Exercise](https://github.com/Ninja-Vikash/JavaScript-Collection/blob/main/README.md#exercise-conditionals)
 - Function
-    - [What is a Function?](https://github.com/Ninja-Vikash/JavaScript-Collection?tab=readme-ov-file#what-is-a-function)
-    - [Exercise](https://github.com/Ninja-Vikash/JavaScript-Collection?tab=readme-ov-file#exercise-function)
+    - [What is a Function?](https://github.com/Ninja-Vikash/JavaScript-Collection/blob/main/README.md#function)
+    - [Exercise](https://github.com/Ninja-Vikash/JavaScript-Collection/blob/main/README.md#exercise-function)
 - Loop
-    - [What is Loop?](https://github.com/Ninja-Vikash/JavaScript-Collection?tab=readme-ov-file#what-is-loop)
-    - [Exercise](https://github.com/Ninja-Vikash/JavaScript-Collection?tab=readme-ov-file#exercise-loop)
+    - [What is Loop?](https://github.com/Ninja-Vikash/JavaScript-Collection/blob/main/README.md#loop)
+    - [Exercise](https://github.com/Ninja-Vikash/JavaScript-Collection/blob/main/README.md#exercise-loop)
 - Object
-    - [What is an Object?](https://github.com/Ninja-Vikash/JavaScript-Collection?tab=readme-ov-file#what-is-an-object)
-    - [Exercise](https://github.com/Ninja-Vikash/JavaScript-Collection?tab=readme-ov-file#exercise-object)
-- [Contribute](https://github.com/Ninja-Vikash/JavaScript-Collection?tab=readme-ov-file#contributions) 🤝
+    - [What is an Object?](https://github.com/Ninja-Vikash/JavaScript-Collection/blob/main/README.md#object)
+    - [Exercise](https://github.com/Ninja-Vikash/JavaScript-Collection/blob/main/README.md#exercise-object)
+- [Contribute](https://github.com/Ninja-Vikash/JavaScript-Collection/blob/main/README.md#contributions)
 
 ## Exercises 🏋️‍♂️
 ### Exercise Array
-- [Generate table using array](https://github.com/Ninja-Vikash/JavaScript-Collection?tab=readme-ov-file#generate-table-using-array)
-- [Get even or odd numbers from the array list](https://github.com/Ninja-Vikash/JavaScript-Collection?tab=readme-ov-file#get-even-or-odd-numbers-from-the-array-list)
-- [Create counting table up to 100 using the array list of 10 elements](https://github.com/Ninja-Vikash/JavaScript-Collection?tab=readme-ov-file#create-counting-table-upto-100-using-the-array-list-of-10-elements)
-- [Insertion in Array](https://github.com/Ninja-Vikash/JavaScript-Collection?tab=readme-ov-file#insertion-in-array)
-- [Deletation in Array](https://github.com/Ninja-Vikash/JavaScript-Collection?tab=readme-ov-file#deletation-in-array)
-- [Basic methods in Array](https://github.com/Ninja-Vikash/JavaScript-Collection?tab=readme-ov-file#basic-methods-in-array)
-- [Replace any particular value from the array list](https://github.com/Ninja-Vikash/JavaScript-Collection?tab=readme-ov-file#replace-any-particular-value-from-the-array-list)
-- [Array destructuring *](https://github.com/Ninja-Vikash/JavaScript-Collection?tab=readme-ov-file#array-destructuring-)
-- [Case changing of a string elements in an array list](https://github.com/Ninja-Vikash/JavaScript-Collection?tab=readme-ov-file#case-changing-of-a-string-elements-in-a-array-list)
-- [Change the CASE of elements in a dynamic array](https://github.com/Ninja-Vikash/JavaScript-Collection?tab=readme-ov-file#case-changing-of-elements-in-a-dynamic-array)
-- [Get candidates who can apply for government job](https://github.com/Ninja-Vikash/JavaScript-Collection?tab=readme-ov-file#get-candidates-who-can-apply-for-government-job)
-- [Printing each individual element using for-each loop](https://github.com/Ninja-Vikash/JavaScript-Collection?tab=readme-ov-file#printing-each-individual-element-using-for-each-loop)
-- [Reverse Array](https://github.com/Ninja-Vikash/JavaScript-Collection?tab=readme-ov-file#reverse-array)
+- [Generate table using array](https://github.com/Ninja-Vikash/JavaScript-Collection/blob/main/README.md#generate-table-using-array)
+- [Get even or odd numbers from the array list](https://github.com/Ninja-Vikash/JavaScript-Collection/blob/main/README.md#get-even-or-odd-numbers-from-the-array-list)
+- [Create counting table up to 100 using the array list of 10 elements](https://github.com/Ninja-Vikash/JavaScript-Collection/blob/main/README.md#create-counting-table-upto-100-using-the-array-list-of-10-elements)
+- [Insertion in Array](https://github.com/Ninja-Vikash/JavaScript-Collection/blob/main/README.md#insertion-in-array)
+- [Deletation in Array](https://github.com/Ninja-Vikash/JavaScript-Collection/blob/main/README.md#deletation-in-array)
+- [Basic methods in Array](https://github.com/Ninja-Vikash/JavaScript-Collection/blob/main/README.md#basic-methods-in-array)
+- [Replace any particular value from the array list](https://github.com/Ninja-Vikash/JavaScript-Collection/blob/main/README.md#replace-any-particular-value-from-the-array-list)
+- [Array destructuring *](https://github.com/Ninja-Vikash/JavaScript-Collection/blob/main/README.md#array-destructuring-)
+- [Case changing of a string elements in an array list](https://github.com/Ninja-Vikash/JavaScript-Collection/blob/main/README.md#case-changing-of-a-string-elements-in-a-array-list)
+- [Change the CASE of elements in a dynamic array](https://github.com/Ninja-Vikash/JavaScript-Collection/blob/main/README.md#case-changing-of-elements-in-a-dynamic-array)
+- [Get candidates who can apply for government job](https://github.com/Ninja-Vikash/JavaScript-Collection/blob/main/README.md#get-candidates-who-can-apply-for-government-job)
+- [Printing each individual element using for-each loop](https://github.com/Ninja-Vikash/JavaScript-Collection/blob/main/README.md#printing-each-individual-element-using-for-each-loop)
+- [Reverse Array](https://github.com/Ninja-Vikash/JavaScript-Collection/blob/main/README.md#reverse-array)
 
 ### Exercise Conditionals
-- [Eligiblity check for voting](https://github.com/Ninja-Vikash/JavaScript-Collection?tab=readme-ov-file#eligiblity-check-for-voting)
-- [Workout schedule](https://github.com/Ninja-Vikash/JavaScript-Collection?tab=readme-ov-file#workout-schedule)
+- [Eligiblity check for voting](https://github.com/Ninja-Vikash/JavaScript-Collection/blob/main/README.md#eligiblity-check-for-voting)
+- [Workout schedule](https://github.com/Ninja-Vikash/JavaScript-Collection/blob/main/README.md#workout-schedule)
 
 ### Exercise Function
-- [A normal function to print welcome note](https://github.com/Ninja-Vikash/JavaScript-Collection?tab=readme-ov-file#a-normal-function-to-print-welcome-note)
-- [A arrow function to print welcome note](https://github.com/Ninja-Vikash/JavaScript-Collection?tab=readme-ov-file#a-arrow-function-to-print-welcome-note)
-- [Calculate total marks and grade](https://github.com/Ninja-Vikash/JavaScript-Collection?tab=readme-ov-file#calculate-total-marks-and-grade)
-- [For getting square of one and more values](https://github.com/Ninja-Vikash/JavaScript-Collection?tab=readme-ov-file#for-getting-square-of-one-and-more-values)
-- [To understand implicit return in arrow function]()
+- [A normal function to print welcome note](https://github.com/Ninja-Vikash/JavaScript-Collection/blob/main/README.md#a-normal-function-to-print-welcome-note)
+- [A arrow function to print welcome note](https://github.com/Ninja-Vikash/JavaScript-Collection/blob/main/README.md#a-arrow-function-to-print-welcome-note)
+- [Calculate total marks and grade](https://github.com/Ninja-Vikash/JavaScript-Collection/blob/main/README.md#calculate-total-marks-and-grade)
+- [For getting square of one and more values](https://github.com/Ninja-Vikash/JavaScript-Collection/blob/main/README.md#for-getting-square-of-one-and-more-values)
+- [To understand implicit return in arrow function](https://github.com/Ninja-Vikash/JavaScript-Collection/blob/main/README.md#to-understand-implicit-return-in-arrow-function)
 
 ### Exercise Loop
-- [Construct a table for any number using loop](https://github.com/Ninja-Vikash/JavaScript-Collection?tab=readme-ov-file#construct-a-table-for-any-number-using-loop)
-- [For getting a square table](https://github.com/Ninja-Vikash/JavaScript-Collection?tab=readme-ov-file#for-getting-a-square-table)
-- [For getting exponential values of any range or a single value](https://github.com/Ninja-Vikash/JavaScript-Collection?tab=readme-ov-file#for-getting-exponential-values-of-any-range-or-a-single-value)
-- [Form an Infinite loop](https://github.com/Ninja-Vikash/JavaScript-Collection?tab=readme-ov-file#form-an-infinite-loop)
-- [Usage of for-in loop](https://github.com/Ninja-Vikash/JavaScript-Collection?tab=readme-ov-file#usage-of-for-in-loop)
-- [Usaage of for-of loop and for-each loop](https://github.com/Ninja-Vikash/JavaScript-Collection?tab=readme-ov-file#usaage-of-for-of-loop-and-for-each-loop)
-- [Break and continue statement](https://github.com/Ninja-Vikash/JavaScript-Collection?tab=readme-ov-file#break-and-continue-statement)
+- [Construct a table for any number using loop](https://github.com/Ninja-Vikash/JavaScript-Collection/blob/main/README.md#construct-a-table-for-any-number-using-loop)
+- [For getting a square table](https://github.com/Ninja-Vikash/JavaScript-Collection/blob/main/README.md#for-getting-a-square-table)
+- [For getting exponential values of any range or a single value](https://github.com/Ninja-Vikash/JavaScript-Collection/blob/main/README.md#for-getting-exponential-values-of-any-range-or-a-single-value)
+- [Form an Infinite loop](https://github.com/Ninja-Vikash/JavaScript-Collection/blob/main/README.md#form-an-infinite-loop)
+- [Usage of for-in loop](https://github.com/Ninja-Vikash/JavaScript-Collection/blob/main/README.md#usage-of-for-in-loop)
+- [Usaage of for-of loop and for-each loop](https://github.com/Ninja-Vikash/JavaScript-Collection/blob/main/README.md#usaage-of-for-of-loop-and-for-each-loop)
+- [Break and continue statement](https://github.com/Ninja-Vikash/JavaScript-Collection/blob/main/README.md#break-and-continue-statement)
 
 ### Exercise Object
-- [Create an object](https://github.com/Ninja-Vikash/JavaScript-Collection?tab=readme-ov-file#create-an-object)
-- [Add new values and Update values in the existing object at once](https://github.com/Ninja-Vikash/JavaScript-Collection?tab=readme-ov-file#add-new-values-and-update-values-in-the-existing-object-at-once)
-- [Create an object for student marks entry and get total marks, grade]()
+- [Create an object](https://github.com/Ninja-Vikash/JavaScript-Collection/blob/main/README.md#create-an-object)
+- [Add new values and Update values in the existing object at once](https://github.com/Ninja-Vikash/JavaScript-Collection/blob/main/README.md#add-new-values-and-update-values-in-the-existing-object-at-once)
+- [Create an object for student marks entry and get total marks, grade](https://github.com/Ninja-Vikash/JavaScript-Collection/blob/main/README.md#create-an-object-for-student-marks-entry-and-get-total-marks-grade)
 
 ## Array
 ### What is an array?
