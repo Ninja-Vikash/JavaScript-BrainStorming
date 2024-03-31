@@ -44,6 +44,7 @@ But this is not very complicated to understand.<br> To simplify the understandin
 
 ### Exercise Conditionals
 - [Eligiblity check for voting](https://github.com/Ninja-Vikash/JavaScript-Collection/blob/main/README.md#eligiblity-check-for-voting)
+- [Advanced eligibility check]()
 - [Workout schedule](https://github.com/Ninja-Vikash/JavaScript-Collection/blob/main/README.md#workout-schedule)
 
 ### Exercise Function
@@ -560,6 +561,45 @@ function EligiblityCheck(name,age){
 }
 
 EligiblityCheck("Akash",64)
+```
+#### Advanced eligibility check
+```js
+function EligiblityCheck(...arg){
+    let PName = arg[0]
+    let age = arg[1]
+    
+    if(arg.length == 1){
+        console.log("Kindly pass your age as second argument")
+    }
+    else
+    if(arg.length == 2){
+
+        if(age < 0){
+            console.log("Please insert a valid age")
+        }
+        else{
+            if (age < 18) {
+                console.log(`${PName}, You are not eligible for voting!`)
+            }
+            else
+            if(age >=18 && age <=65){
+                console.log(`${PName}, You are eligible for voting!`);
+            }
+            else 
+            if(age > 65){
+                console.log(`${PName}, You are eligible!`)
+            }
+        }
+    }
+    else
+    if(arg.length > 2){
+        console.log("You have passed 3 arguments.")
+    }
+}
+
+// EligiblityCheck("Vikash")
+EligiblityCheck("Vikash", 20)
+// EligiblityCheck("Vikash", 20, 21)
 ```
 #### Workout schedule
 ```js
