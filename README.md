@@ -67,6 +67,7 @@ But this is not very complicated to understand.<br> To simplify the understandin
 - [Create an object](https://github.com/Ninja-Vikash/JavaScript-Collection/blob/main/README.md#create-an-object)
 - [Add new values and Update values in the existing object at once](https://github.com/Ninja-Vikash/JavaScript-Collection/blob/main/README.md#add-new-values-and-update-values-in-the-existing-object-at-once)
 - [Create an object for student marks entry and get total marks, grade](https://github.com/Ninja-Vikash/JavaScript-Collection/blob/main/README.md#create-an-object-for-student-marks-entry-and-get-total-marks-grade)
+- [Course Constructor & Data Viewer]()
 
 ## Array
 ### What is an array?
@@ -1157,6 +1158,42 @@ let Sanjay = new studentEntry(90, 79, 56, 45, 44, 56);
 // Sanjay.result()
 ```
 
+#### Course Constructor & Data Viewer
+```js
+function Course(...arg){
+  this.title = arg[0];
+  this.price = arg[1];
+  this.duration = arg[2];
+  this.author = "Ninja-Vikash"
+}
+
+// ------> Create your course here
+let DSA = new Course("DSA", 1999, 4);
+let JAVASCRIPT = new Course("JavaScript", 1499, 6);
+let HTML = new Course("HTML", 799, 5);
+let CSS = new Course("CSS", 899, 3);
+let REACT = new Course("React", 1999, 8);
+let NODEJS = new Course("Node.js", 1799, 9);
+
+/**
+ *  Pass values as Course(_course_name, _price, _duration)
+ */
+
+function dataViewer(courseName){
+  console.log("---COURSE DETAILS---")
+  for (const key in courseName) {
+    const value = courseName[key];
+    console.log(`${key} : ${value}`)
+  }
+  console.log("---COURSE DETAILS---")
+}
+
+// ------> Get Your course details
+// dataViewer(DSA)
+// dataViewer(REACT)
+dataViewer(NODEJS)
+// dataViewer(CSS)
+```
 ***
 
 ### Contributions
