@@ -67,7 +67,7 @@ But this is not very complicated to understand.<br> To simplify the understandin
 - [Create an object](https://github.com/Ninja-Vikash/JavaScript-Collection/blob/main/README.md#create-an-object)
 - [Add new values and Update values in the existing object at once](https://github.com/Ninja-Vikash/JavaScript-Collection/blob/main/README.md#add-new-values-and-update-values-in-the-existing-object-at-once)
 - [Create an object for student marks entry and get total marks, grade](https://github.com/Ninja-Vikash/JavaScript-Collection/blob/main/README.md#create-an-object-for-student-marks-entry-and-get-total-marks-grade)
-- [Course Constructor & Data Viewer]()
+- [Course Constructor & Data Viewer](https://github.com/Ninja-Vikash/JavaScript-Collection/blob/main/README.md#course-constructor--data-viewer)
 
 ## Array
 ### What is an array?
