@@ -142,4 +142,26 @@
 let add = (a, b) => a + b
 
 let sum = add(23, 23)
-console.log(sum)
+// console.log(sum)
+
+/**
+ *  TEST : To get power value from passed argument
+ */
+
+function power(num, expo){
+    return expo(num)
+}
+
+function square(num){
+    console.log(`SQUARE OF ${num} : ${num**2}`)
+}
+
+function cube(num){
+    console.log(`CUBE OF ${num} : ${num**3}`)
+}
+
+function quad(num){
+    console.log(`QUAD OF ${num} : ${num**4}`)
+}
+
+power(3, square)
