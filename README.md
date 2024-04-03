@@ -53,7 +53,7 @@ But this is not very complicated to understand.<br> To simplify the understandin
 - [Calculate total marks and grade](https://github.com/Ninja-Vikash/JavaScript-Collection?tab=readme-ov-file#calculate-total-marks-and-grade)
 - [For getting square of one and more values](https://github.com/Ninja-Vikash/JavaScript-Collection?tab=readme-ov-file#for-getting-square-of-one-and-more-values)
 - [To understand implicit return in arrow function](https://github.com/Ninja-Vikash/JavaScript-Collection/blob/main/README.md#to-understand-implicit-return-in-arrow-function)
-- [A high-order function to get square, cube & quad values of any number]()
+- [A high-order function to get square, cube & quad values of any number](https://github.com/Ninja-Vikash/JavaScript-Collection/blob/main/README.md#to-get-power-value-from-passed-argument)
 
 ### Exercise Loop
 - [Construct a table for any number using loop](https://github.com/Ninja-Vikash/JavaScript-Collection/blob/main/README.md#construct-a-table-for-any-number-using-loop)
