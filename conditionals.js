@@ -34,6 +34,58 @@
 
 // ----------------------------------------------------------------------------
 /**
+ *  TEST : Advanced eligibility check
+ */
+
+function EligiblityCheck(...arg){
+    let PName = arg[0]
+    let age = arg[1]
+
+    if(arg.length == 1){
+        console.log("Kindly pass your age as second argument")
+    }
+    else
+    if(arg.length == 2){
+        if(typeof(PName)=="string"){
+
+            if(age < 0){
+                console.log("Please insert a valid age")
+            }
+            else{
+            if (age < 18) {
+                console.log(`${PName}, You are not eligible for voting!`)
+            }
+            else
+            if(age >=18 && age <=65){
+                console.log(`${PName}, You are eligible for voting!`);
+            }
+            else 
+            if(age > 65){
+                console.log(`${PName}, You are eligible!`)
+            }
+            }
+
+        }
+        else{
+            console.log("Please enter your name as first argument")
+        }
+    }
+    else
+    if(arg.length > 2){
+        console.log("You have passed 3 arguments.")
+    }
+}
+
+EligiblityCheck("Vikash", 20)
+
+/**
+ *  EligiblityCheck(_NAME_,_AGE_)
+ *  Pass your name as first argument and your age as second argument
+ *  You can try by passing only one or more than arguments as well as by not passing name as first arguemnt
+ */
+
+// ----------------------------------------------------------------------------
+/**
  *  TEST : Workout schedule
  */
 

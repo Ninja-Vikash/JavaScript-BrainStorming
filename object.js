@@ -7,12 +7,12 @@
  *  TEST : My data object exporting
  */
 let myData = {
-  name : "Ninja",
-  role : "Developer",
-  age : 20
-}
+  name: "Ninja",
+  role: "Developer",
+  age: 20,
+};
 
-export default {myData}
+export default { myData };
 
 // ----------------------------------------------------------------------------
 /**
@@ -143,3 +143,82 @@ export default {myData}
 //     console.log(e.type);
 //   }
 // }
+
+// ----------------------------------------------------------------------------
+/**
+ *  TEST : Create an object for student marks entry and get total marks, grade
+ */
+
+function studentEntry(...marks) {
+  let MARK = [];
+  MARK.push(...marks);
+
+  this.result = function () {
+    if (MARK.length > 5 || MARK.length < 5) {
+      console.log("PLEASE CHECK YOUR INPUT MARKS MAY BE YOU HAVE ENTERED MORE OR LESS INPUTS");
+    } else {
+
+      let total = MARK.reduce((a, b) => a + b);
+      let grade = total / 5;
+
+      if (grade >= 0 && grade < 33) {
+        console.log(`YOUR SCORE IS : ${total} AND GRADE : F`);
+      } else if (grade >= 33 && grade < 45) {
+        console.log(`YOUR SCORE IS : ${total} AND GRADE : D`);
+      } else if (grade >= 45 && grade < 55) {
+        console.log(`YOUR SCORE IS : ${total} AND GRADE : C`);
+      } else if (grade >= 55 && grade < 65) {
+        console.log(`YOUR SCORE IS : ${total} AND GRADE : B`);
+      } else if (grade >= 65 && grade < 75) {
+        console.log(`YOUR SCORE IS : ${total} AND GRADE : A`);
+      } else {
+        console.log(`YOUR SCORE IS : ${total} AND GRADE : A+`);
+      }
+    }
+  };
+}
+
+let Ajay = new studentEntry(30, 30, 30, 30);
+// Ajay.result()
+let Rohit = new studentEntry(67, 56, 78, 56, 77);
+Rohit.result()
+let Sanjay = new studentEntry(90, 79, 56, 45, 44, 56);
+// Sanjay.result()
+
+// ----------------------------------------------------------------------------
+/**
+ *   TEST : Course Constructor & Data Viewer
+ */
+function Course(...arg){
+  this.title = arg[0];
+  this.price = arg[1];
+  this.duration = arg[2];
+  this.author = "Ninja-Vikash"
+}
+
+// ------> Create your course here
+let DSA = new Course("DSA", 1999, 4);
+let JAVASCRIPT = new Course("JavaScript", 1499, 6);
+let HTML = new Course("HTML", 799, 5);
+let CSS = new Course("CSS", 899, 3);
+let REACT = new Course("React", 1999, 8);
+let NODEJS = new Course("Node.js", 1799, 9);
+
+/**
+ *  Pass values as Course(_course_name, _price, _duration)
+ */
+
+function dataViewer(courseName){
+  console.log("---COURSE DETAILS---")
+  for (const key in courseName) {
+    const value = courseName[key];
+    console.log(`${key} : ${value}`)
+  }
+  console.log("---COURSE DETAILS---")
+}
+
+// ------> Get Your course details
+// dataViewer(DSA)
+// dataViewer(REACT)
+dataViewer(NODEJS)
+// dataViewer(CSS)

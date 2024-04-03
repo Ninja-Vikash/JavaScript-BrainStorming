@@ -150,7 +150,7 @@
 // ------> Advanced
 
 // function remove (n){
-//     if (n <= studentName.length) {
+//     if (n <= studentName.length && n >= 0) {
 //         for (let i = 0; i < n; i++) {
 //             studentName.pop()
 //         }

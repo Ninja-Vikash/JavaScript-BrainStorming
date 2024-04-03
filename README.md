@@ -1,71 +1,74 @@
-##### JavaScript Test Collection
+##### JavaScript Test Collection 📚
 # Getting Started
-**Javascript** is one of the most important asset for **Web Developers.**
+**Javascript** is one of the most important assets for **Web Developers.**
 
-But this is not very complicated to understand.<br> To simplify the understanding of **JavaScript**, I have created some demos, Which will boost your knowledge in **JavaScript**. 
+But this is not very complicated to understand.<br> To simplify the understanding of **JavaScript**, I have created some demos, That will boost your knowledge in **JavaScript**💡. 
 
 > [!NOTE]\
-> If you are a **PRO** this repo will helpful in your revision.\
-> If you are a **BEGINNER** this repo will helpful to learn.
+> If you are a **PRO** this repo will be helpful in your revision.\
+> If you are a **BEGINNER** this repo will help to learn.
 
-## What's Inside
+## What's Inside 🎁
 - Array
-    - [What is an Array?](https://github.com/Ninja-Vikash/JavaScript-Collection?tab=readme-ov-file#what-is-an-array)
-    - [Exercise](https://github.com/Ninja-Vikash/JavaScript-Collection?tab=readme-ov-file#exercise-array)
+    - [What is an Array?](https://github.com/Ninja-Vikash/JavaScript-Collection/blob/main/README.md#array)
+    - [Exercise](https://github.com/Ninja-Vikash/JavaScript-Collection/blob/main/README.md#exercise-array)
 - Conditionals
-    - [If-else and Switch](https://github.com/Ninja-Vikash/JavaScript-Collection?tab=readme-ov-file#types-of-conditionals-in-javascript)
-    - [Exercise](https://github.com/Ninja-Vikash/JavaScript-Collection?tab=readme-ov-file#exercise-conditionals)
+    - [If-else and Switch](https://github.com/Ninja-Vikash/JavaScript-Collection/blob/main/README.md#conditionals)
+    - [Exercise](https://github.com/Ninja-Vikash/JavaScript-Collection/blob/main/README.md#exercise-conditionals)
 - Function
-    - [What is a Function?](https://github.com/Ninja-Vikash/JavaScript-Collection?tab=readme-ov-file#what-is-a-function)
-    - [Exercise](https://github.com/Ninja-Vikash/JavaScript-Collection?tab=readme-ov-file#exercise-function)
+    - [What is a Function?](https://github.com/Ninja-Vikash/JavaScript-Collection/blob/main/README.md#function)
+    - [Exercise](https://github.com/Ninja-Vikash/JavaScript-Collection/blob/main/README.md#exercise-function)
 - Loop
-    - [What is Loop?](https://github.com/Ninja-Vikash/JavaScript-Collection?tab=readme-ov-file#what-is-loop)
-    - [Exercise](https://github.com/Ninja-Vikash/JavaScript-Collection?tab=readme-ov-file#exercise-loop)
+    - [What is Loop?](https://github.com/Ninja-Vikash/JavaScript-Collection/blob/main/README.md#loop)
+    - [Exercise](https://github.com/Ninja-Vikash/JavaScript-Collection/blob/main/README.md#exercise-loop)
 - Object
-    - [What is an Object?](https://github.com/Ninja-Vikash/JavaScript-Collection?tab=readme-ov-file#what-is-an-object)
-    - [Exercise](https://github.com/Ninja-Vikash/JavaScript-Collection?tab=readme-ov-file#exercise-object)
-- [Contribute](https://github.com/Ninja-Vikash/JavaScript-Collection?tab=readme-ov-file#contributions) 🤝
+    - [What is an Object?](https://github.com/Ninja-Vikash/JavaScript-Collection/blob/main/README.md#object)
+    - [Exercise](https://github.com/Ninja-Vikash/JavaScript-Collection/blob/main/README.md#exercise-object)
+- [Contribute](https://github.com/Ninja-Vikash/JavaScript-Collection/blob/main/README.md#contributions)
 
-## Exercises
+## Exercises 🏋️‍♂️
 ### Exercise Array
-- [Generate table using array](https://github.com/Ninja-Vikash/JavaScript-Collection?tab=readme-ov-file#generate-table-using-array)
-- [Get even or odd numbers from the array list](https://github.com/Ninja-Vikash/JavaScript-Collection?tab=readme-ov-file#get-even-or-odd-numbers-from-the-array-list)
-- [Create counting table upto 100 using the array list of 10 elements](https://github.com/Ninja-Vikash/JavaScript-Collection?tab=readme-ov-file#create-counting-table-upto-100-using-the-array-list-of-10-elements)
-- [Insertion in Array](https://github.com/Ninja-Vikash/JavaScript-Collection?tab=readme-ov-file#insertion-in-array)
-- [Deletation in Array](https://github.com/Ninja-Vikash/JavaScript-Collection?tab=readme-ov-file#deletation-in-array)
-- [Basic methods in Array](https://github.com/Ninja-Vikash/JavaScript-Collection?tab=readme-ov-file#basic-methods-in-array)
-- [Replace any particular value from the array list](https://github.com/Ninja-Vikash/JavaScript-Collection?tab=readme-ov-file#replace-any-particular-value-from-the-array-list)
-- [Array destructuring *](https://github.com/Ninja-Vikash/JavaScript-Collection?tab=readme-ov-file#array-destructuring-)
-- [Case changing of a string elements in a array list](https://github.com/Ninja-Vikash/JavaScript-Collection?tab=readme-ov-file#case-changing-of-a-string-elements-in-a-array-list)
-- [Change the CASE of elements in a dynamic array](https://github.com/Ninja-Vikash/JavaScript-Collection?tab=readme-ov-file#case-changing-of-elements-in-a-dynamic-array)
-- [Get candidates who can apply for goverment job](https://github.com/Ninja-Vikash/JavaScript-Collection?tab=readme-ov-file#get-candidates-who-can-apply-for-goverment-job)
-- [Printing each individual element using for-each loop](https://github.com/Ninja-Vikash/JavaScript-Collection?tab=readme-ov-file#printing-each-individual-element-using-for-each-loop)
-- [Reverse Array](https://github.com/Ninja-Vikash/JavaScript-Collection?tab=readme-ov-file#reverse-array)
+- [Generate table using array](https://github.com/Ninja-Vikash/JavaScript-Collection/blob/main/README.md#generate-table-using-array)
+- [Get even or odd numbers from the array list](https://github.com/Ninja-Vikash/JavaScript-Collection/blob/main/README.md#get-even-or-odd-numbers-from-the-array-list)
+- [Create counting table up to 100 using the array list of 10 elements](https://github.com/Ninja-Vikash/JavaScript-Collection/blob/main/README.md#create-counting-table-upto-100-using-the-array-list-of-10-elements)
+- [Insertion in Array](https://github.com/Ninja-Vikash/JavaScript-Collection/blob/main/README.md#insertion-in-array)
+- [Deletation in Array](https://github.com/Ninja-Vikash/JavaScript-Collection/blob/main/README.md#deletation-in-array)
+- [Basic methods in Array](https://github.com/Ninja-Vikash/JavaScript-Collection/blob/main/README.md#basic-methods-in-array)
+- [Replace any particular value from the array list](https://github.com/Ninja-Vikash/JavaScript-Collection/blob/main/README.md#replace-any-particular-value-from-the-array-list)
+- [Array destructuring *](https://github.com/Ninja-Vikash/JavaScript-Collection/blob/main/README.md#array-destructuring-)
+- [Case changing of a string elements in an array list](https://github.com/Ninja-Vikash/JavaScript-Collection/blob/main/README.md#case-changing-of-a-string-elements-in-a-array-list)
+- [Change the CASE of elements in a dynamic array](https://github.com/Ninja-Vikash/JavaScript-Collection/blob/main/README.md#case-changing-of-elements-in-a-dynamic-array)
+- [Get candidates who can apply for government job](https://github.com/Ninja-Vikash/JavaScript-Collection/blob/main/README.md#get-candidates-who-can-apply-for-government-job)
+- [Printing each individual element using for-each loop](https://github.com/Ninja-Vikash/JavaScript-Collection/blob/main/README.md#printing-each-individual-element-using-for-each-loop)
+- [Reverse Array](https://github.com/Ninja-Vikash/JavaScript-Collection/blob/main/README.md#reverse-array)
 
 ### Exercise Conditionals
-- [Eligiblity check for voting](https://github.com/Ninja-Vikash/JavaScript-Collection?tab=readme-ov-file#eligiblity-check-for-voting)
-- [Workout schedule](https://github.com/Ninja-Vikash/JavaScript-Collection?tab=readme-ov-file#workout-schedule)
+- [Eligiblity check for voting](https://github.com/Ninja-Vikash/JavaScript-Collection/blob/main/README.md#eligiblity-check-for-voting)
+- [Advanced eligibility check](https://github.com/Ninja-Vikash/JavaScript-Collection/blob/main/README.md#advanced-eligibility-check)
+- [Workout schedule](https://github.com/Ninja-Vikash/JavaScript-Collection/blob/main/README.md#workout-schedule)
 
 ### Exercise Function
 - [A normal function to print welcome note](https://github.com/Ninja-Vikash/JavaScript-Collection?tab=readme-ov-file#a-normal-function-to-print-welcome-note)
 - [A arrow function to print welcome note](https://github.com/Ninja-Vikash/JavaScript-Collection?tab=readme-ov-file#a-arrow-function-to-print-welcome-note)
 - [Calculate total marks and grade](https://github.com/Ninja-Vikash/JavaScript-Collection?tab=readme-ov-file#calculate-total-marks-and-grade)
 - [For getting square of one and more values](https://github.com/Ninja-Vikash/JavaScript-Collection?tab=readme-ov-file#for-getting-square-of-one-and-more-values)
-- [To understand implicit return in arrow function]()
+- [To understand implicit return in arrow function](https://github.com/Ninja-Vikash/JavaScript-Collection/blob/main/README.md#to-understand-implicit-return-in-arrow-function)
 - [A high-order function to get square, cube & quad values of any number]()
 
 ### Exercise Loop
-- [Construct a table for any number using loop](https://github.com/Ninja-Vikash/JavaScript-Collection?tab=readme-ov-file#construct-a-table-for-any-number-using-loop)
-- [For getting a square table](https://github.com/Ninja-Vikash/JavaScript-Collection?tab=readme-ov-file#for-getting-a-square-table)
-- [For getting exponential values of any range or a single value](https://github.com/Ninja-Vikash/JavaScript-Collection?tab=readme-ov-file#for-getting-exponential-values-of-any-range-or-a-single-value)
-- [Form an Infite loop](https://github.com/Ninja-Vikash/JavaScript-Collection?tab=readme-ov-file#form-an-infite-loop)
-- [Usage of for-in loop](https://github.com/Ninja-Vikash/JavaScript-Collection?tab=readme-ov-file#usage-of-for-in-loop)
-- [Usaage of for-of loop and for-each loop](https://github.com/Ninja-Vikash/JavaScript-Collection?tab=readme-ov-file#usaage-of-for-of-loop-and-for-each-loop)
-- [Break and continue statement](https://github.com/Ninja-Vikash/JavaScript-Collection?tab=readme-ov-file#break-and-continue-statement)
+- [Construct a table for any number using loop](https://github.com/Ninja-Vikash/JavaScript-Collection/blob/main/README.md#construct-a-table-for-any-number-using-loop)
+- [For getting a square table](https://github.com/Ninja-Vikash/JavaScript-Collection/blob/main/README.md#for-getting-a-square-table)
+- [For getting exponential values of any range or a single value](https://github.com/Ninja-Vikash/JavaScript-Collection/blob/main/README.md#for-getting-exponential-values-of-any-range-or-a-single-value)
+- [Form an Infinite loop](https://github.com/Ninja-Vikash/JavaScript-Collection/blob/main/README.md#form-an-infinite-loop)
+- [Usage of for-in loop](https://github.com/Ninja-Vikash/JavaScript-Collection/blob/main/README.md#usage-of-for-in-loop)
+- [Usaage of for-of loop and for-each loop](https://github.com/Ninja-Vikash/JavaScript-Collection/blob/main/README.md#usaage-of-for-of-loop-and-for-each-loop)
+- [Break and continue statement](https://github.com/Ninja-Vikash/JavaScript-Collection/blob/main/README.md#break-and-continue-statement)
 
 ### Exercise Object
-- [Create an object](https://github.com/Ninja-Vikash/JavaScript-Collection?tab=readme-ov-file#create-an-object)
-- [Add new values and Update values in the existing object at once](https://github.com/Ninja-Vikash/JavaScript-Collection?tab=readme-ov-file#add-new-values-and-update-values-in-the-existing-object-at-once)
+- [Create an object](https://github.com/Ninja-Vikash/JavaScript-Collection/blob/main/README.md#create-an-object)
+- [Add new values and Update values in the existing object at once](https://github.com/Ninja-Vikash/JavaScript-Collection/blob/main/README.md#add-new-values-and-update-values-in-the-existing-object-at-once)
+- [Create an object for student marks entry and get total marks, grade](https://github.com/Ninja-Vikash/JavaScript-Collection/blob/main/README.md#create-an-object-for-student-marks-entry-and-get-total-marks-grade)
+- [Course Constructor & Data Viewer](https://github.com/Ninja-Vikash/JavaScript-Collection/blob/main/README.md#course-constructor--data-viewer)
 
 ## Array
 ### What is an array?
@@ -73,13 +76,13 @@ An Array is a collection of data in a queue.
 ```js
 let array = [1, 2, 3, 4, 5, 6, 7, 8, 9]
 ```
-Each value inside of an array known as an `element`. And each element has their own `index`.
+Each value inside of an array is known as an `element`. And each element has its own `index`.
 ```js
 let array = [1, 2, 3, 4, 5, 6, 7, 8, 9]
 
 array.indexOf(2)    // OUTPUT : 1
 ```
-In array index value starts from `0(zero)`
+In the array index value starts from `0(zero)`
 
 ### Exercise Array
 #### Generate table using array.
@@ -96,7 +99,7 @@ function Table(n){
     });
 }
 
-// Pass value for getting table
+// Pass value for getting the table
 Table(132)
 ```
 
@@ -166,12 +169,12 @@ let finalArr = arr1.concat(...arr2,arr3,arr4,arr5,arr6,arr7,arr8,arr9,arr10);
 console.log(finalArr)
 
 /**
- *  NOTE : For concatanation I used (...)spread operator
+ *  NOTE : For concatenation, I used the (...)spread operator
  */
 ```
 #### Insertion in Array
 ```js
-// ------> Inserting in a empty array
+// ------> Inserting in an empty array
 
 let arr = []
 function insert (...val){
@@ -182,7 +185,7 @@ insert("Hello", "World", "!")
 console.log(arr)
 ```
 ```js
-// ------> Inserting in a existing array using PUSH
+// ------> Inserting in an existing array using PUSH
 let studentName = ["Vikash", "Anuj", "Shiv", "Rohit", "Sanjay"];
 
 const add = (...value)=>{
@@ -222,7 +225,7 @@ console.log(studentName)
 let studentName = ["Vikash", "Anuj", "Shiv", "Rohit", "Sanjay"];
 
 function remove (n){
-    if (n <= studentName.length) {
+    if (n <= studentName.length && n >= 0) {
         for (let i = 0; i < n; i++) {
             studentName.pop()
         }
@@ -344,11 +347,11 @@ ToLower()
 
 /**
  *  NOTE : We can't change the existing Array's string case
- *  but we can form new array using the old array.
+ *  but we can form a new array using the old array.
  */
 ```
 ```js
-// -------> Using single function
+// -------> Using a single function
 let studentName = ["Vikash", "Anuj", "Shiv", "Rohit", "Sanjay"];
 
 function toCase(change){
@@ -399,7 +402,7 @@ toCase("UPPER");
 // toCase("HYPER")
 ```
 
-#### Get candidates who can apply for goverment job
+#### Get candidates who can apply for government job
 ```js
 // ------> Candidate data
 let candidate = [
@@ -561,6 +564,57 @@ function EligiblityCheck(name,age){
 
 EligiblityCheck("Akash",64)
 ```
+#### Advanced eligibility check
+```js
+function EligiblityCheck(...arg){
+    let PName = arg[0]
+    let age = arg[1]
+
+    if(arg.length == 1){
+        console.log("Kindly pass your age as second argument")
+    }
+    else
+    if(arg.length == 2){
+        if(typeof(PName)=="string"){
+
+            if(age < 0){
+                console.log("Please insert a valid age")
+            }
+            else{
+            if (age < 18) {
+                console.log(`${PName}, You are not eligible for voting!`)
+            }
+            else
+            if(age >=18 && age <=65){
+                console.log(`${PName}, You are eligible for voting!`);
+            }
+            else 
+            if(age > 65){
+                console.log(`${PName}, You are eligible!`)
+            }
+            }
+
+        }
+        else{
+            console.log("Please enter your name as first argument")
+        }
+    }
+    else
+    if(arg.length > 2){
+        console.log("You have passed 3 arguments.")
+    }
+}
+
+// EligiblityCheck("Vikash")
+EligiblityCheck("Vikash", 20)
+// EligiblityCheck("Vikash", 20, 21)
+
+/**
+ *  EligiblityCheck(_NAME_,_AGE_)
+ *  Pass your name as first argument and your age as second argument
+ *  You can try by passing only one or more than arguments as well as by not passing name as first arguemnt
+ */
+```
 #### Workout schedule
 ```js
 function workout(day){
@@ -709,7 +763,7 @@ function square(...value) {
   let values = [];
   values.push(...value);
   if (values.length == 0) {
-    console.log("PLEASE ENTER ATLEAST ONE VALUE TO GET RESULT!");
+    console.log("PLEASE ENTER AT LEAST ONE VALUE TO GET RESULT!");
   } else {
     values.forEach((element) => {
       console.log(`SQUARE OF ${element} is ${element ** 2}`);
@@ -902,14 +956,14 @@ sqTable(10)
 ```js
 function power(expo, start, end) {
   if (start == undefined) {
-    console.log("PLEASE PASS ATLEAST TWO VALUES");
+    console.log("PLEASE PASS AT LEAST TWO VALUES");
   } else if (end == undefined) {
     for (let i = start; i <= start; i++) {
-      console.log(`SQAURE OF ${i} = ${i ** expo}`);
+      console.log(`SQUARE OF ${i} = ${i ** expo}`);
     }
   } else {
     for (let i = start; i <= end; i++) {
-      console.log(`SQAURE OF ${i} = ${i ** expo}`);
+      console.log(`SQUARE OF ${i} = ${i ** expo}`);
     }
   }
 }
@@ -920,19 +974,19 @@ power(2, 17, 24);
 
 /**
  *  NOTE : power(exponent_value, start, end)
- *  We can get exponent value of any single value
+ *  We can get the exponent value of any single value
  *  By passing only two values as :
  *  power(exponent_value, start)
  */
 ```
 
-#### Form an Infite loop
+#### Form an Infinite loop
 ```js
 // ------> Using while loop
 let i = 1
 while (i<=10) {
     console.log(i*3);
-    // Declare an afterthought to avoid infinte loop 
+    // Declare an afterthought to avoid infinite loop 
 }
 ```
 ```js
@@ -940,7 +994,7 @@ while (i<=10) {
 let i = 1
 do {
     console.log(i*3);
-    // Declare an afterthought to avoid infinte loop 
+    // Declare an afterthought to avoid infinite loop 
 } while (i<=10);
 ```
 #### Usage of for-in loop
@@ -974,7 +1028,7 @@ ARRAY.forEach(element => {
 });
 
 /**
- *  NOTE : for-of and forEach loop specially used in array for iterating
+ *  NOTE : for-of and forEach loop specially used in the array for iterating
  */
 ```
 #### Break and Continue statement
@@ -1002,7 +1056,7 @@ for (let i = 1; i <= 10; i++) {
 
 /**
  *  NOTE : break statement stops the chain
- *  while continue statement continues the chain excluding the condition
+ *  while the continue statement continues the chain excluding the condition
  */
 ```
 ***
@@ -1086,17 +1140,91 @@ let update = {
 StudentData = {...StudentData, ...newData, ...update}
 console.log(StudentData)
 ```
+#### Create an object for student marks entry and get total marks, grade
+```js
+function studentEntry(...marks) {
+  let MARK = [];
+  MARK.push(...marks);
 
+  this.result = function () {
+    if (MARK.length > 5 || MARK.length < 5) {
+      console.log("PLEASE CHECK YOUR INPUT MARKS MAY BE YOU HAVE ENTERED MORE OR LESS INPUTS");
+    } else {
+
+      let total = MARK.reduce((a, b) => a + b);
+      let grade = total / 5;
+
+      if (grade >= 0 && grade < 33) {
+        console.log(`YOUR SCORE IS : ${total} AND GRADE : F`);
+      } else if (grade >= 33 && grade < 45) {
+        console.log(`YOUR SCORE IS : ${total} AND GRADE : D`);
+      } else if (grade >= 45 && grade < 55) {
+        console.log(`YOUR SCORE IS : ${total} AND GRADE : C`);
+      } else if (grade >= 55 && grade < 65) {
+        console.log(`YOUR SCORE IS : ${total} AND GRADE : B`);
+      } else if (grade >= 65 && grade < 75) {
+        console.log(`YOUR SCORE IS : ${total} AND GRADE : A`);
+      } else {
+        console.log(`YOUR SCORE IS : ${total} AND GRADE : A+`);
+      }
+    }
+  };
+}
+
+let Ajay = new studentEntry(30, 30, 30, 30);
+// Ajay.result()
+let Rohit = new studentEntry(67, 56, 78, 56, 77);
+Rohit.result()
+let Sanjay = new studentEntry(90, 79, 56, 45, 44, 56);
+// Sanjay.result()
+```
+
+#### Course Constructor & Data Viewer
+```js
+function Course(...arg){
+  this.title = arg[0];
+  this.price = arg[1];
+  this.duration = arg[2];
+  this.author = "Ninja-Vikash"
+}
+
+// ------> Create your course here
+let DSA = new Course("DSA", 1999, 4);
+let JAVASCRIPT = new Course("JavaScript", 1499, 6);
+let HTML = new Course("HTML", 799, 5);
+let CSS = new Course("CSS", 899, 3);
+let REACT = new Course("React", 1999, 8);
+let NODEJS = new Course("Node.js", 1799, 9);
+
+/**
+ *  Pass values as Course(_course_name, _price, _duration)
+ */
+
+function dataViewer(courseName){
+  console.log("---COURSE DETAILS---")
+  for (const key in courseName) {
+    const value = courseName[key];
+    console.log(`${key} : ${value}`)
+  }
+  console.log("---COURSE DETAILS---")
+}
+
+// ------> Get Your course details
+// dataViewer(DSA)
+// dataViewer(REACT)
+dataViewer(NODEJS)
+// dataViewer(CSS)
+```
 ***
 
 ### Contributions
-This repository is open to collaborate, and your contributions are welcome! If you spot an error, have a suggestion, or want to add new content, feel free to submit a pull request. Let's make this guide a vibrant and up-to-date resource for the entire community
+This repository is open for collaboration, and your contributions are welcome! If you spot an error, have a suggestion, or want to add new content, feel free to submit a pull request. Let's make this guide a vibrant and up-to-date resource for the entire community
 
 **Fork the Repository**
 
 Navigate to the repository you want to contribute to on GitHub and click the "Fork" button in the top right corner. This creates a copy of the repository in your GitHub account.
 
-[Fork: Javascript Collection](https://github.com/Ninja-Vikash/JavaScript-Collection/fork)
+[Javascript Collection](https://github.com/Ninja-Vikash/JavaScript-Collection/fork)
 
 **Clone the Repository**
 
@@ -1131,4 +1259,4 @@ Push your changes to your forked repository on GitHub:
 git push origin new-feature
 ```
 
-#### Open to Collabrate 🤝
+#### Open to Collaborate 🤝
