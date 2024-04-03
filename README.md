@@ -48,11 +48,12 @@ But this is not very complicated to understand.<br> To simplify the understandin
 - [Workout schedule](https://github.com/Ninja-Vikash/JavaScript-Collection/blob/main/README.md#workout-schedule)
 
 ### Exercise Function
-- [A normal function to print welcome note](https://github.com/Ninja-Vikash/JavaScript-Collection/blob/main/README.md#a-normal-function-to-print-welcome-note)
-- [A arrow function to print welcome note](https://github.com/Ninja-Vikash/JavaScript-Collection/blob/main/README.md#a-arrow-function-to-print-welcome-note)
-- [Calculate total marks and grade](https://github.com/Ninja-Vikash/JavaScript-Collection/blob/main/README.md#calculate-total-marks-and-grade)
-- [For getting square of one and more values](https://github.com/Ninja-Vikash/JavaScript-Collection/blob/main/README.md#for-getting-square-of-one-and-more-values)
+- [A normal function to print welcome note](https://github.com/Ninja-Vikash/JavaScript-Collection?tab=readme-ov-file#a-normal-function-to-print-welcome-note)
+- [A arrow function to print welcome note](https://github.com/Ninja-Vikash/JavaScript-Collection?tab=readme-ov-file#a-arrow-function-to-print-welcome-note)
+- [Calculate total marks and grade](https://github.com/Ninja-Vikash/JavaScript-Collection?tab=readme-ov-file#calculate-total-marks-and-grade)
+- [For getting square of one and more values](https://github.com/Ninja-Vikash/JavaScript-Collection?tab=readme-ov-file#for-getting-square-of-one-and-more-values)
 - [To understand implicit return in arrow function](https://github.com/Ninja-Vikash/JavaScript-Collection/blob/main/README.md#to-understand-implicit-return-in-arrow-function)
+- [A high-order function to get square, cube & quad values of any number]()
 
 ### Exercise Loop
 - [Construct a table for any number using loop](https://github.com/Ninja-Vikash/JavaScript-Collection/blob/main/README.md#construct-a-table-for-any-number-using-loop)
@@ -806,6 +807,26 @@ let add = (a, b) => a + b
 
 let sum = add(23, 23)
 console.log(sum)
+```
+#### To get power value from passed argument
+```js
+function power(num, expo){
+    return expo(num)
+}
+
+function square(num){
+    console.log(`SQUARE OF ${num} : ${num**2}`)
+}
+
+function cube(num){
+    console.log(`CUBE OF ${num} : ${num**3}`)
+}
+
+function quad(num){
+    console.log(`QUAD OF ${num} : ${num**4}`)
+}
+
+power(3, square)
 ```
 ***
 ## Loop
