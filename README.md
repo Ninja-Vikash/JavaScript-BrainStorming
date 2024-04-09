@@ -46,6 +46,7 @@ But this is not very complicated to understand.<br> To simplify the understandin
 - [Eligiblity check for voting](https://github.com/Ninja-Vikash/JavaScript-Collection/blob/main/README.md#eligiblity-check-for-voting)
 - [Advanced eligibility check](https://github.com/Ninja-Vikash/JavaScript-Collection/blob/main/README.md#advanced-eligibility-check)
 - [Workout schedule](https://github.com/Ninja-Vikash/JavaScript-Collection/blob/main/README.md#workout-schedule)
+- [Get exponential values of any single or a range]()
 
 ### Exercise Function
 - [A normal function to print welcome note](https://github.com/Ninja-Vikash/JavaScript-Collection?tab=readme-ov-file#a-normal-function-to-print-welcome-note)
@@ -653,6 +654,31 @@ workout("Thu")
 
 /**
  *  NOTE : Enter a valid day name to get your workout schedule
+ */
+```
+
+#### Get exponential values
+```js
+function power(expo, start, end) {
+    if (start == undefined) {
+      console.log("PASS SECOND ARGUMENT");
+    }
+    else
+    if (end == undefined) {
+        console.log(`${start}^${expo} = ${Math.pow(start, expo)}`)
+    }
+    else {
+      for (let i = Math.min(start , end); i <= Math.max(start, end); i++) {
+        console.log(`${i}^${expo}= ${Math.pow(i, expo)}`)
+      }
+    }
+  }
+  
+  power(2, 12, 1);
+
+/**
+ *  power(EXPONENT, START, END)
+ *  You can get power value of any range or any order
  */
 ```
 
