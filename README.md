@@ -46,7 +46,7 @@ But this is not very complicated to understand.<br> To simplify the understandin
 - [Eligiblity check for voting](https://github.com/Ninja-Vikash/JavaScript-Collection/blob/main/README.md#eligiblity-check-for-voting)
 - [Advanced eligibility check](https://github.com/Ninja-Vikash/JavaScript-Collection/blob/main/README.md#advanced-eligibility-check)
 - [Workout schedule](https://github.com/Ninja-Vikash/JavaScript-Collection/blob/main/README.md#workout-schedule)
-- [Get exponential values of any single or a range]()
+- [Get exponential values of any single or a range](https://github.com/Ninja-Vikash/JavaScript-Collection/blob/main/README.md#get-exponential-values)
 
 ### Exercise Function
 - [A normal function to print welcome note](https://github.com/Ninja-Vikash/JavaScript-Collection?tab=readme-ov-file#a-normal-function-to-print-welcome-note)
