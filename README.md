@@ -26,7 +26,7 @@ This repo will help and boost your knowledge in **JavaScript**💡
     - [Objects](https://github.com/Ninja-Vikash/JavaScript-Collection/blob/main/README.md#object)
     - [Object Date](https://github.com/Ninja-Vikash/JavaScript-Collection/blob/main/README.md#date)
 - [Exercises](https://github.com/Ninja-Vikash/JavaScript-Collection/blob/main/README.md#exercises-%EF%B8%8F%EF%B8%8F) 🏋️‍♂️
--  [Contribute](https://github.com/Ninja-Vikash/JavaScript-Collection/blob/main/README.md#contributions) 🤝<br/>
+-  [Contribute](https://github.com/Ninja-Vikash/JavaScript-Collection/blob/main/README.md#contribute-) 🤝<br/>
 Explore the contribution section for more information and guidance<br/> 
 How to contribute? 👆
 
