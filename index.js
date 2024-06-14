@@ -1,17 +1,24 @@
-console.log("This is a JavaScript Test Collection!\n")
+console.log("\nWelcome to JavaScript BrainStorming!🤓")
+console.log("You are now a BrainStormer!😎\n")
 
 setTimeout(() => {
-    console.log("\u2714 Check array.js")
+    console.log("\u2714 Copied!")
 }, 1000);
 
 setTimeout(() => {
-    console.log("\u2714 Check class.js")
+    console.log("\u2714 Start Contributing🤝!")
+}, 1500);
+
+setTimeout(() => {
+    console.log("\u2714 Create your own branch like new-idea!⚡")
 }, 2000);
 
 setTimeout(() => {
-    console.log("\u2714 Check object.js")
-}, 3000);
+    console.log("\nHappy Coding💖!\n")
+}, 3500);
 
-setTimeout(() => {
-    console.log("\nHappy Coding!")
-}, 5000);
+
+
+/**
+ *  Happy Coding! 💖
+ */

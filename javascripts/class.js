@@ -2,8 +2,6 @@
  *  Class in JavaScript
  */
 
-console.log(arr)
-
 class RegdForm {
   constructor(username) {
     // console.log("You have to pay 500 Rs/-");
@@ -33,9 +31,9 @@ class RegdForm {
   // }
 }
 
-let Vikash = new RegdForm("Vikash");
-let Ajay = new RegdForm("Ajay");
-let Sneha = new RegdForm("Sneha");
+// let Vikash = new RegdForm("Vikash");
+// let Ajay = new RegdForm("Ajay");
+// let Sneha = new RegdForm("Sneha");
 
 // Form.username("vikash")
 // Form.submit()
@@ -43,3 +41,38 @@ let Sneha = new RegdForm("Sneha");
 // Form.username("Ajay")
 // Form.cancel()
 
+class product {
+  constructor(productName, price, stock){
+    this.productName = productName;
+    this.price = price;
+    this.stock = stock
+  }
+}
+
+let classMateNoteBook = new product("CM notebook", 89, true)
+
+// console.log(classMateNoteBook.stock)
+
+class studentInfo {
+  constructor(name, age, rollno, course){
+    this.name = name;
+    this.age = age;
+    this.rollno = rollno;
+    this.course = course;
+  }
+
+  // dataView = function() {
+  //   console.log(`Name : ${this.name}`)
+  //   console.log(`Age : ${this.age}`)
+  //   console.log(`Course : ${this.course}`)
+  // }
+  dataView() {
+    console.log(`Name : ${this.name}`)
+    console.log(`Age : ${this.age}`)
+    console.log(`Course : ${this.course}`)
+  }
+}
+
+let A = new studentInfo("Avi", 17, 56, "HTML")
+
+A.dataView()
