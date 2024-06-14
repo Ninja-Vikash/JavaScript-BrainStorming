@@ -223,3 +223,15 @@
  *  NOTE : break statement stops the chain
  *  while continue statement continues the chain excluding the condition
  */
+
+
+let obj = {
+    name : "vikash",
+    role : "coder",
+    age : 20
+}
+
+for (const key in obj) {
+    const element = obj[key];
+    console.log(element, key)
+}

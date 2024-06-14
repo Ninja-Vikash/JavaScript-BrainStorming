@@ -1,30 +1,290 @@
-##### JavaScript Test Collection 📚
+##### JavaScript Brainstorming 📚
+
 # Getting Started
-**Javascript** is one of the most important assets for **Web Developers.**
+<img src="logo.png" height="70" align="left"/>
 
-But this is not very complicated to understand.<br> To simplify the understanding of **JavaScript**, I have created some demos, That will boost your knowledge in **JavaScript**💡. 
+**Javascript** is one of the most important assets for **Web Developers.**<br/>
+But this is not very complicated language to understand 😮<br>
+To simplify the understanding of **JavaScript**, This repo will help and boost your knowledge in **JavaScript**💡
 
+### Content table
+- Core Concepts of JavaScript ⚡
+    - What is JavaScript ?
+    - Features
+    - History
+    - Core of Programming
+- Jewels of JavaScript 💎
+    - Array
+    - Conditionals
+    - Class
+    - DOM (Data Object Model)
+    - Events
+    - Function
+    - Loop
+    - Math
+    - Objects
+    - Object Date
+- Exercises 🏋️‍♂️
+-  [Contribute](https://github.com/Ninja-Vikash/JavaScript-Collection/blob/main/README.md#contributions) 🤝<br/>
+Explore the contribution section for more information and guidance<br/> 
+How to contribute? 👆
+
+## Core Concepts of JavaScript 🤓
+### What is JavaScript ?
+- JavaScript is a **high-level**, **versatile programming language** primarily used for creating interactive and dynamic content on websites.
+- JavaScript allows developers to implement complex features such as **real-time** updates, **interactive** forms, **animations**, and **multimedia integration**.
+- JavaScript is an essential part of **web development**, working alongside HTML and CSS to enhance user experiences.
+- It is supported by all modern web browsers and can be used on both the **client side** (in the browser) and the **server side** (using environments like Node.js).
+
+### Features of JavaScript
+
+- Interpreted Language
+- Dynamic Typed
+- Object Oriented
+- DOM Manipulation<br/>
+    Are the key-features of JavaScript
+
+### Where to write JavaScript ?
+1. Directly in your **browser's console**.
+2. Inside a `HTML` file using `<script>` tag
+    ```html
+    <script>
+        console.log("Hello World!")
+    </script>
+    ```
+3. Using a external JavaScript file
+    ```js
+    // index.js
+    console.log("Hello World!")
+    ```
+    Or,
+4. We can run our javascript file using a extension `code runner` in vs-code<br/>
+    Suppose we have a JavaScript file named as `index.js`<br/>
+    Go to the `terminal` window in vs-code and run the command
+    ```bash
+    node index.js
+    ```
+> [!IMPORTANT]\
+> The above node command will only work, If you have intalled node.js in your machine.
+
+### History of JavaScript ⌛
+
+#### Creation
+- In 1995, **Netscape Communications Corporation** wanted a lightweight scripting language for its **Netscape Navigator web browser**.
+- *Brendan Eich*, a programmer at Netscape, **created JavaScript in just 10 days**. Initially called "`Mocha`," it was later renamed "`LiveScript`" and finally "`JavaScript`" to capitalize on the popularity of **Java**.
+
+#### Early Development
+- JavaScript was released with **Netscape Navigator 2.0** in 1995.
+- Microsoft responded by creating a similar language called JScript, which was included in **Internet Explorer 3.0** in 1996.
+
+#### Standardization
+- To ensure compatibility across different browsers, JavaScript was standardized by the **European Computer Manufacturers Association (ECMA)**.
+- The first standardized version, **ECMAScript 1** (ES1), was released in 1997.
+
+#### Growth and Evolution
+- Subsequent versions introduced more features and improvements. Notably, ECMAScript 3 (ES3) in 1999 added regular expressions, better string handling, and new control statements.
+- ECMAScript 4 (ES4) was ambitious but never fully realized due to disagreements within the community.
+
+#### Modern JavaScript
+- **ECMAScript 5** (ES5) was released in 2009, bringing significant features like `strict mode`, `JSON support`, and more robust object properties.
+- **ECMAScript 6** (ES6) or ECMAScript 2015 was a major update in 2015, introducing `classes`, `modules`, `arrow functions`, `let` and `const` keywords, and `promises`.
+- Since ES6, the language has received yearly updates, with ECMAScript 2016 (ES7), ECMAScript 2017 (ES8), and so on, each adding new features and improvements.
+
+#### JavaScript Today
+- JavaScript is now a powerful, full-fledged programming language used for both **client-side** and **server-side** development.
+- It is the backbone of modern web development, supported by vast ecosystems, including libraries like **React**, **Angular**, and **Vue**, and runtime environments like **Node.js**.
+
+***
+### Core of Programming 🧠
+
+**Print**<br/>
+In JavaScript we use `console.log()` to print
+```js
+console.log("Hello World!")
+```
+
+**Comments**<br/>
+Comments are used to inhance readability or prevent execution of any code block.
+```js
+// Single line comment
+
+/*
+  This is
+  multi-line
+  comment
+*/
+```
+
+**Variables**<br/>
+Variables are like containers to store data.<br/>
+In JavaScript we can create a variable using `var`, `let` or `const` keyword.
+> [!IMPORTANT]\
+> In modern JavaScript\
+> `let` & `const` keywords are used for most of the coding.
+
+**Declaration vs Assigning**
+```js
+let myName;         // Variable declaration part
+
+myName = "Vikash";  // Variable assigning part
+```
+
+**Data Types**<br/>
+At a very high level, there are two types of data types in JavaScript
+1. Primitive Data Types<br/>
+    `undefined`, `null`, `numbers`, `string`, `boolean`, `symbol`
+2. Reference Data Types<br/>
+    `Arrays` and `Object`
+
+
+`var` vs `let` & `const`
+```js
+// Declaration using var keyword
+var myName = "Vikash"
+
+console.log(myname)         // Vikash
+```
+> [!WARNING]\
+> `var` keyword supports `Hoisting` method to declare a variable.\
+> `Hoisting` breaks the variable statement into two parts as
+> ```js
+> var myName;
+> myName = "Vikash";
+> ```
+> And moves the declaration part on the top of the file\
+> Initially the variable stored as `undefined` value during the memory creation phase.\
+> If we try to access the variable before declaring it will print the special keyword `undefined`.
+> ```js
+> console.log(myName);          // Undefined
+> var myName = "Vikash";
+> ```
+
+In modern JavaScript, Most of the time we will use `let` and `const` keyword to declare a variable.
+```js
+// Declaration using let keyword
+let myName = "Vikash";
+
+console.log(myName);            // Vikash
+```
 > [!NOTE]\
-> If you are a **PRO** this repo will be helpful in your revision.\
-> If you are a **BEGINNER** this repo will help to learn.
+> When we create a variable using `let` keyword, We have access to re-assign the value.
+> ```js
+> let myName = "Vikash";
+> 
+> console.log(myName);          // Vikash 
+>
+> myName = "Ninja Vikash";
+>
+> console.log(myName);          // Ninja Vikash 
+> ```
+```js
+// Declaration using const keyword
+const myName = "Vikash";
 
-## What's Inside 🎁
+console.log(myName);            // Vikash
+```
+> [!WARNING]\
+> We cannot re-assign a variable declared using `const` keyword
+>
+> `let` and `const` don't support `Hoisting` method.\
+> If we try to access a variable declared using `let` and `const` keyword.
+> ```js
+> console.log(myName);
+>
+> const myName = "Vikash";
+> ```
+> It will through an error.
+> ```
+> ReferenceError: Cannot access 'myName' before initialization
+> ```
+
+#### Primitive Data Types
+Since, **JavaScript is not a typed Language**.<br/>
+Therefore, We don't need to define data type of any variable `explicitly`<br/>
+JavaScript is smart enough to identify the variable type<br/>
+For checking the data type of any variable we use `typeof()` method.<br/>
+
+```js
+let num1 = 123;
+let num2 = 99.56;
+
+console.log(typeof(num1));          // number
+
+let str1 = "Vikash";
+let str2 = "Kumar";
+
+console.log(typeof(str1));          // string
+
+let isCodingFun = true;
+
+console.log(typeof(isCodingFun))    // boolean
+
+let undValue;
+
+console.log(typeof(undValue));      // undefined
+
+let nulValue = null;
+
+console.log(typeof(nulValue));      // object
+```
+
+#### Operators
+Operators are used to perform some task on variables.<br/>
+- **Arithmetic Operator**
+    - Addition `(+)`
+    - Subtraction `(-)`
+    - Multiplication `(*)`
+    - Division `(/)`
+    - Modulas `(%)`
+- **Assignment Operator**
+    - `a = 2`
+    - `a += 2`
+    - `a -= 2`
+    - `a *= 2`
+    - `a /= 2`
+    - `a %= 2`
+- **Comparison Operator**
+    - Greater than `x > y`
+    - Less than `x < y`
+    - Greater than or Equal to `x >= y`
+    - Less than or Equal to `x <= y`
+    - Equal-equal to `x == y`
+    - Not equal to `x != y`
+- **Logical Operator**
+    - AND `&&`
+    - OR `||`
+    - NOT `!`
+
+## Jewels of JavaScript 💎
 - Array
     - [What is an Array?](https://github.com/Ninja-Vikash/JavaScript-Collection/blob/main/README.md#array)
     - [Exercise](https://github.com/Ninja-Vikash/JavaScript-Collection/blob/main/README.md#exercise-array)
 - Conditionals
     - [If-else and Switch](https://github.com/Ninja-Vikash/JavaScript-Collection/blob/main/README.md#conditionals)
     - [Exercise](https://github.com/Ninja-Vikash/JavaScript-Collection/blob/main/README.md#exercise-conditionals)
+- Class
+    - What is class?
+- DOM (Data Object Model)
+    - What is DOM?
+    - DOM Operations
+- Events
+    - What is an Event in JavaScript?
+    - Common Events
+    - Event Handling
 - Function
     - [What is a Function?](https://github.com/Ninja-Vikash/JavaScript-Collection/blob/main/README.md#function)
     - [Exercise](https://github.com/Ninja-Vikash/JavaScript-Collection/blob/main/README.md#exercise-function)
 - Loop
     - [What is Loop?](https://github.com/Ninja-Vikash/JavaScript-Collection/blob/main/README.md#loop)
     - [Exercise](https://github.com/Ninja-Vikash/JavaScript-Collection/blob/main/README.md#exercise-loop)
+- Math
+    - Math Object in JavaScript
+    - List of Math method
 - Object
     - [What is an Object?](https://github.com/Ninja-Vikash/JavaScript-Collection/blob/main/README.md#object)
     - [Exercise](https://github.com/Ninja-Vikash/JavaScript-Collection/blob/main/README.md#exercise-object)
-- [Contribute](https://github.com/Ninja-Vikash/JavaScript-Collection/blob/main/README.md#contributions)
+- Object Date
+
 
 ## Exercises 🏋️‍♂️
 ### Exercise Array
@@ -71,19 +331,26 @@ But this is not very complicated to understand.<br> To simplify the understandin
 - [Create an object for student marks entry and get total marks, grade](https://github.com/Ninja-Vikash/JavaScript-Collection/blob/main/README.md#create-an-object-for-student-marks-entry-and-get-total-marks-grade)
 - [Course Constructor & Data Viewer](https://github.com/Ninja-Vikash/JavaScript-Collection/blob/main/README.md#course-constructor--data-viewer)
 
+<br/>
+
 ## Array
 ### What is an array?
-An Array is a collection of data in a queue.
+An Array is a **collection of data** in a list.<br/>
+Array can hold elements of any type, including `numbers`, `strings`, `objects`, `functions`, and even other `arrays`
 ```js
-let array = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+let array = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 ```
-Each value inside of an array is known as an `element`. And each element has its own `index`.
+Each value inside of an array is known as an `element` and each element has its own `index`
 ```js
 let array = [1, 2, 3, 4, 5, 6, 7, 8, 9]
 
 array.indexOf(2)    // OUTPUT : 1
 ```
-In the array index value starts from `0(zero)`
+In the array index value starts from `0(zero)`<br/>
+JavaScript arrays come with a variety of built-in methods for common tasks such as *adding*, *removing*, or *iterating* over elements.<br/>
+**Reference**: [w3schools](https://www.w3schools.com/js/js_array_methods.asp)
+| [mdn](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
+| [geeksforgeek](https://www.geeksforgeeks.org/javascript-array-methods/)
 
 ### Exercise Array
 #### Generate table using array.
@@ -93,10 +360,10 @@ let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
 function Table(n){
     let table = arr.map((e)=> e*n)
-    console.log(`Table of ${n}`)
+    console.log(`Table of ${n}`);
 
     table.forEach((element) => {
-        console.log(element)
+        console.log(element);
     });
 }
 
@@ -489,10 +756,105 @@ function reverse (){
 reverse()
 ```
 
-***
+<br/>
+
+## Class
+### What is class ?
+In JavaScript, classes are a way to create **reusable blueprints** for objects.<br/>
+Classes were introduced in ECMAScript 6 (ES6) and provide a more structured and syntactically sugar-coated way to work with `prototypes` and `inheritance`.
+
+- Classes: Use the `class` keyword to define a class
+- Constructor: The `constructor` method is used to initialize object properties.
+    ```js
+    class Person {
+    // Constructor method to initialize the object
+        constructor(name, age) {
+            this.name = name;
+            this.age = age;
+        }
+    }
+
+    // Creating an instance of the Person class
+    let person1 = new Person('Vikash', 20);
+    console.log(person1.describe()); // Vikas is 20 years old.
+    ```
+- Instance Methods: Methods that operate on instances of the class.
+    ```js
+    class Person {
+        constructor(name, age) {
+            this.name = name;
+            this.age = age;
+        }
+
+        describe() {
+            return `${this.name} is ${this.age} years old.`;
+        }
+    }
+
+    let person1 = new Person('Ninja Vikash', 20);
+    console.log(person1.describe()); // Ninja Vikash is 20 years old.
+    ```
+- Static Methods: Methods that belong to the class itself.
+    ```js
+    class Person {
+        constructor(name, age) {
+            this.name = name;
+            this.age = age;
+        }
+
+        describe() {
+            return `${this.name} is ${this.age} years old.`;
+        }
+
+        // Static method
+        static species() {
+            return 'Homo sapiens';
+        }
+    }
+
+    console.log(Person.species()); // Homo sapiens
+    ```
+- Inheritance: Use the `extends` keyword to create a subclass and `super` to call the parent class's constructor.
+    ```js
+    class Person {
+        constructor(name, age) {
+            this.name = name;
+            this.age = age;
+        }
+
+        describe() {
+            return `${this.name} is ${this.age} years old.`;
+        }
+    }
+
+    class Student extends Person {
+        constructor(name, age, role) {
+            super(name, age); // Call the constructor of the parent class
+            this.role = role;
+        }
+
+        describe() {
+            return `${this.name} is ${this.age} years old and a ${this.role}.`;
+        }
+    }
+
+    let student1 = new Student('Vikash', 20, 'Coder');
+    console.log(student1.describe()); // Vikash is 20 years old and a Coder.
+    ```
+
+> [!IMPORTANT]\
+> The only important method in class is `constructor` method, In which we create instances.
+
+**Reference** : [mdn](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes) | 
+[w3schools](https://www.w3schools.com/js/js_classes.asp)
+
+<br/>
+
 ## Conditionals
-### Types of Conditionals in JavaScript
-There are major two types of conditionals in JavaScript.
+### What is a conditional statement ?
+A conditional statement in programming is a feature that allows you to perform different actions based on whether a certain condition is `true` or `false`<br/>
+In JavaScript, conditional statements help control the flow of the code by executing specific blocks of code only if certain conditions are met.
+
 1. if-else statement
 ```js
 // ------> Single if statement
@@ -535,6 +897,8 @@ switch (key) {
         break;
 }
 ```
+**Reference** : [mdn](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/conditionals) | 
+[w3schools](https://www.w3schools.com/js/js_if_else.asp)
 
 ### Exercise Conditionals
 #### Eligiblity check for voting
@@ -567,42 +931,43 @@ EligiblityCheck("Akash",64)
 ```
 #### Advanced eligibility check
 ```js
+// Strictly checks the condition
 function EligiblityCheck(...arg){
-    let PName = arg[0]
+    let voterName = arg[0]
     let age = arg[1]
 
     if(arg.length == 1){
-        console.log("Kindly pass your age as second argument")
+        console.log("Kindly pass your age as second argument");
     }
     else
     if(arg.length == 2){
-        if(typeof(PName)=="string"){
+        if(typeof(voterName)=="string"){
 
-            if(age < 0){
-                console.log("Please insert a valid age")
+            if(age > 0){
+                if (age < 18) {
+                    console.log(`${voterName}, You are not eligible for voting!`);
+                }
+                else
+                if(age >=18 && age <=65){
+                    console.log(`${voterName}, You are eligible for voting!`);
+                }
+                else 
+                if(age > 65){
+                    console.log(`${voterName}, You are eligible!`);
+                }
             }
             else{
-            if (age < 18) {
-                console.log(`${PName}, You are not eligible for voting!`)
-            }
-            else
-            if(age >=18 && age <=65){
-                console.log(`${PName}, You are eligible for voting!`);
-            }
-            else 
-            if(age > 65){
-                console.log(`${PName}, You are eligible!`)
-            }
+                console.log("Please insert a valid age");
             }
 
         }
         else{
-            console.log("Please enter your name as first argument")
+            console.log("Please pass your name as first argument");
         }
     }
     else
     if(arg.length > 2){
-        console.log("You have passed 3 arguments.")
+        console.log(`You have passed ${arg.length} arguments.`);
     }
 }
 
@@ -659,18 +1024,29 @@ workout("Thu")
 
 #### Get exponential values
 ```js
-function power(expo, start, end) {
-    if (start == undefined) {
-      console.log("PASS SECOND ARGUMENT");
+function power(...args) {
+    let [expo, start, end] = args;
+
+    if(args.length > 3){
+        console.log("Pass only 3 or less arguments");
     }
-    else
-    if (end == undefined) {
-        console.log(`${start}^${expo} = ${Math.pow(start, expo)}`)
-    }
-    else {
-      for (let i = Math.min(start , end); i <= Math.max(start, end); i++) {
-        console.log(`${i}^${expo}= ${Math.pow(i, expo)}`)
-      }
+    else{
+        if (start != undefined && end != undefined) {
+            for (let i = Math.min(start , end); i <= Math.max(start, end); i++) {
+              console.log(`${i}^${expo}= ${Math.pow(i, expo)}`);
+            }
+        }
+        else
+        if(expo == undefined) {
+            console.log("Pass atleast two arguments");
+        }
+        else
+        if (start == undefined) {
+            console.log("Pass Second Argument");
+        }
+        else {
+            console.log(`${start}^${expo} = ${Math.pow(start, expo)}`);
+        }
     }
   }
   
@@ -682,11 +1058,13 @@ function power(expo, start, end) {
  */
 ```
 
-***
+<br/>
 
 ## Function
 ### What is a Function?
-A function in JavaScript is a block of code designed to perform a specific task. It allows you to encapsulate logic, making your code more reusable and easier to understand. Functions can take input through parameters and return a value or output.
+A function in JavaScript is a block of code designed to perform a specific task.<br/>
+It allows you to **encapsulate logic**, making your code more **reusable** and easier to understand.<br/>
+Functions can take input through `parameters` and return a value or output.
 ```js
 function addNumbers(a, b) {
   let result = a + b;
@@ -698,13 +1076,17 @@ let sum = addNumbers(3, 4);
 console.log(sum); // Output: 7
 ```
 
+**Reference** : [w3schools](https://www.w3schools.com/js/js_functions.asp) | 
+[mdn](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions) |
+[geeksforgeeks](https://www.geeksforgeeks.org/functions-in-javascript/)
+
 ### Exercise Function
 #### A normal function to print welcome note
 ```js
 function Welcome(user){
     console.log(`Hello ${user}!`)
-    console.log("Now, You are a part of JavaScript Collection!")
-    console.log("Keep Learning.")
+    console.log("Now, You are a part of JavaScript BrainStorming!")
+    console.log("Keep Learning!")
 }
 
 Welcome("Ninja")
@@ -721,6 +1103,34 @@ const congratulation = (candidate)=>{
 
 congrats('ninja')
 congratulation('vikash')
+```
+#### To understand implicit return in arrow function
+```js
+// ------> Sum of two numbers using normal function
+function add (a, b){
+    return a + b
+}
+
+let sum = add(23, 23)
+console.log(sum)
+```
+```js
+// ------> Sum of two numbers using arrow function with explicit return
+let add = (a, b)=>{
+    return (
+        a + b
+    )
+}
+
+let sum = add(23, 23)
+console.log(sum)
+```
+```js
+// ------> Sum of two numbers using arrow function with implicit return
+let add = (a, b) => a + b
+
+let sum = add(23, 23)
+console.log(sum)
 ```
 #### Calculate total marks and grade
 ```js
@@ -806,34 +1216,6 @@ square(4);
  *  any single value in the function. A message will appear on the console.
  */
 ```
-#### To understand implicit return in arrow function
-```js
-// ------> Sum of two numbers using normal function
-function add (a, b){
-    return a + b
-}
-
-let sum = add(23, 23)
-console.log(sum)
-```
-```js
-// ------> Sum of two numbers using arrow function with explicit return
-let add = (a, b)=>{
-    return (
-        a + b
-    )
-}
-
-let sum = add(23, 23)
-console.log(sum)
-```
-```js
-// ------> Sum of two numbers using arrow function with implicit return
-let add = (a, b) => a + b
-
-let sum = add(23, 23)
-console.log(sum)
-```
 #### To get power value from passed argument
 ```js
 function power(num, expo){
@@ -854,7 +1236,9 @@ function quad(num){
 
 power(3, square)
 ```
-***
+
+<br/>
+
 ## Loop
 ### What is Loop?
 A loop in JavaScript is a programming tool used to repeat a set of instructions until a certain condition is met. 
@@ -878,6 +1262,44 @@ do {
   // Code block to be executed
 } while (condition);
 ```
+> [!IMPORTANT]\
+> `do-while` loop executes once the code block then it checks the condition.
+
+**Special loops**
+- **forEach loop**<br/>
+    forEach loop is a special loop, which is used to iterate each elements of an array
+    ```js
+    let arr = [1, 2, 3, 4, 5];
+
+    arr.forEach(e => console.log(e));
+    ```
+- **for-of loop**<br/>
+    for-of loop is used to iterate each elements of an array
+    ```js
+    let arr = [1, 2, 3, 4, 5];
+
+    for (const iterator of arr) {
+        console.log(iterator)
+    }
+    ```
+- **for-in loop**<br/>
+    for-in loop is used to iterate each value of an object
+    ```js
+    let obj = {
+        name : "vikash",
+        role : "coder",
+        age : 20
+    }
+
+    for (const key in obj) {
+        const element = obj[key];
+        console.log(element, key)
+    }
+    ```
+
+**Reference** : [w3schools](https://www.w3schools.com/js/js_loop_for.asp) |
+[mdn](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration) | 
+[freecodecamp](https://www.freecodecamp.org/news/javascript-loops-explained-for-loop-for/)
 
 ### Exercise Loop
 #### Construct a table for any number using loop
@@ -1085,10 +1507,14 @@ for (let i = 1; i <= 10; i++) {
  *  while the continue statement continues the chain excluding the condition
  */
 ```
-***
+
+<br/>
+
 ## Object
 ### What is an Object?
-An object in JavaScript is a collection of key-value pairs where the keys are strings or symbols, and the values can be of any data type, including other objects. Objects are used to store and organize complex data in a structured manner. They are created using object literals, constructor functions, or object creation methods like `Object.create()`
+An object in JavaScript is a collection of `key-value` pairs where the keys are strings or symbols, and the values can be of any data type, including other objects.<br/>
+Objects are used to store and organize complex data in a structured manner.<br/>
+They are created using `object literals`, `constructor functions`, or object creation methods like `Object.create()`
 
 1. **Using an object literal**:
 ```js
@@ -1125,6 +1551,9 @@ const animal = {
 const dog = Object.create(animal);
 dog.speak(); // Output: The animal makes a sound.
 ```
+
+**Reference** : [mdn](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object) |
+[w3schools](https://www.w3schools.com/js/js_objects.asp)
 
 ### Exercise Object
 #### Create an object.
@@ -1241,48 +1670,399 @@ function dataViewer(courseName){
 dataViewer(NODEJS)
 // dataViewer(CSS)
 ```
-***
 
-### Contributions
-This repository is open for collaboration, and your contributions are welcome! If you spot an error, have a suggestion, or want to add new content, feel free to submit a pull request. Let's make this guide a vibrant and up-to-date resource for the entire community
+<br/>
 
-**Fork the Repository**
+## DOM
+### What is DOM ?
+DOM stands for **Data Object Model**.<br/>
+The DOM represents a document as a **hierarchical tree structure** of nodes.<br/>
+Each node can be an `element`, `attribute`, or `text` content.<br/>
+The nodes in the DOM tree are objects with **properties** and **methods**.<br/>
+> [!NOTE]\
+> `innerHTML` for content\
+> `style` for CSS styles\
+> `appendChild()` for add a new child node
 
-Navigate to the repository you want to contribute to on GitHub and click the "Fork" button in the top right corner. This creates a copy of the repository in your GitHub account.
+### DOM Operations
+#### Accessing elements
+We can select elements using various methods like `getElementById()`, `getElementsByClassName()`, `getElementsByTagName()`, `querySelector()`, and `querySelectorAll()`.
 
-[Javascript Collection](https://github.com/Ninja-Vikash/JavaScript-Collection/fork)
+```js
+// Accessing an element by ID
+let element = document.getElementById('myElement');
 
-**Clone the Repository**
+// Accessing elements by class name
+let elements = document.getElementsByClassName('myClass');
 
-Clone your forked repository to your local machine using the `git clone` command. Replace `username` with your GitHub username and `repository` with the name of the repository:
-```bash
-git clone https://github.com/username/repository.git
+// Accessing elements by tag name
+let paragraphs = document.getElementsByTagName('p');
+
+// Accessing an element using a CSS selector
+let firstParagraph = document.querySelector('p');
+```
+> [!NOTE]\
+> `querySelector()` uses CSS selector syntax\
+> We can target any inner element as below
+> ```js
+> let element = document.querySelector(".container h2")
+> ```
+
+#### Modifying Elements
+We can change the **content**, **style** and **attribute** of elements.
+
+```js
+// Changing the inner HTML
+element.innerHTML = 'New content';
+
+// Changing the style
+element.style.color = 'blue';
+
+// Changing an attribute
+element.setAttribute('src', 'newImage.jpg');
 ```
 
-**Create a New Branch**
+#### Creating and Appending Elements
+We can create new elements and add them to the DOM.
+```js
+// Creating a new element
+let newElement = document.createElement('div');
+newElement.innerHTML = 'Hello, world!';
 
-Create a new branch for your changes. It's a good practice to create a new branch for each feature or bug fix you're working on
-```bash
-git checkout -b new-feature
+// Appending the new element to an existing element
+document.body.appendChild(newElement);
 ```
 
-**Make Changes**
+**Reference** : [w3schools](https://www.w3schools.com/js/js_htmldom.asp) |
+[mdn](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction) |
+[geeksforgeeks](https://www.geeksforgeeks.org/dom-document-object-model/)
 
-Make your desired changes to the codebase using your preferred text editor or IDE.
+### Exercise DOM
+#### Create an ordered list
+```js
+let list = document.getElementById("list")
 
-**Commit Changes**
+let listItems = ["Mango", "Apple", "Banana", "Orange"]
 
-Once you've made your changes, stage and commit them to your local repository:
+let olList = document.createElement("ol")
+
+let list1 = document.createElement("li")
+let list2 = document.createElement("li")
+let list3 = document.createElement("li")
+let list4 = document.createElement("li")
+
+list1.innerText = listItems[0]
+list2.innerText = listItems[1]
+list3.innerText = listItems[2]
+list4.innerText = listItems[3]
+
+olList.appendChild(list1)
+olList.appendChild(list2)
+olList.appendChild(list3)
+olList.appendChild(list4)
+
+list.appendChild(olList)
+```
+
+<br/>
+
+## Events
+### What is an Event in JavaScript ?
+Events in JavaScript are **actions** or **occurrences**<br/>
+Happen in the browser window, which JavaScript can respond.<br/>
+These events can be triggered by user interactions<br/>
+Such as `clicking` a button, `typing` in a text field, or `moving` the mouse<br/>
+As well as by other actions, like loading a web page or playing a video.
+
+By handling these events, we can make web pages interactive and responsive to user input.
+
+### Common Events
+#### Mouse Events
+`click`: Fired when an element is clicked.<br/>
+`dblclick`: Fired when an element is double-clicked.<br/>
+`mousedown`: Fired when the mouse button is pressed down.<br/>
+`mouseup`: Fired when the mouse button is released.<br/>
+`mousemove`: Fired when the mouse pointer is moved.<br/>
+`mouseover`: Fired when the mouse pointer moves over an element.<br/>
+`mouseout`: Fired when the mouse pointer moves out of an element.
+
+#### Keyboard Events
+`keydown`: Fired when a key is pressed down.<br/>
+`keyup`: Fired when a key is released.<br/>
+`keypress`: Fired when a key is pressed and released.
+
+#### Form Events
+`submit`: Fired when a form is submitted.<br/>
+`change`: Fired when the value of an element changes.<br/>
+`focus`: Fired when an element gains focus.<br/>
+`blur`: Fired when an element loses focus.
+
+#### Document/Window Events
+`load`: Fired when the document or an image is fully loaded.<br/>
+`resize`: Fired when the window is resized.<br/>
+`scroll`: Fired when the document view is scrolled.<br/>
+`unload`: Fired when the user navigates away from the page.
+
+
+#### Clipboard Events
+`copy`: Fired when content is copied.<br/>
+`cut`: Fired when content is cut.<br/>
+`paste`: Fired when content is pasted.
+
+### Event Handling
+#### Using `addEventListener`
+
+```js
+let button = document.getElementById('myButton');
+button.addEventListener('click', function() {
+    alert('Button was clicked!');
+});
+```
+
+#### Using HTML Event Attributes
+
+```js
+<button id="myButton" onclick="alert('Button was clicked!')">Click Me</button>
+```
+
+#### Using DOM Properties
+
+```js
+let button = document.getElementById('myButton');
+button.onclick = function() {
+    alert('Button was clicked!');
+};
+```
+
+**Reference** : [w3schools](https://www.w3schools.com/js/js_events.asp) |
+[mdn](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Events) |
+[geeksforgeeks](https://www.geeksforgeeks.org/javascript-events/)
+
+<br/>
+
+## Math
+### Math Object in JavaScript
+JavaScript provides a built-in Math object that contains properties and methods for performing mathematical operations and calculations.<br/>
+object is static, meaning you do not need to create an instance of it to use its methods and properties.
+
+> [!NOTE]\
+> We can see the list all Math methods by simple logging the Math object in console.\
+> ```js
+> console.log(Math)
+> ```
+
+#### List of Math method
+**`Math.abs(x)`**
+```js
+let absoluteValue = Math.abs(-5); // 5
+
+// Returns the absolute value of a number
+```
+
+**`Math.ceil(x)`**
+```js
+let roundedUp = Math.ceil(4.2); // 5
+
+// Rounds a number upwards to the nearest integer
+```
+
+**`Math.floor(x)`**
+```js
+let roundedDown = Math.floor(4.8); // 4
+
+// Rounds a number downwards to the nearest integer
+```
+
+**`Math.round(x)`**
+```js
+let rounded = Math.round(4.5); // 5
+
+// Rounds a number to the nearest integer.
+```
+
+**`Math.max(x, y, ...)`**
+```js
+let maxNumber = Math.max(1, 2, 3, 4); // 4
+
+// Returns the largest of the zero or more numbers given as input parameters
+```
+
+**`Math.min(x, y, ...)`**
+```js
+let minNumber = Math.min(1, 2, 3, 4); // 1
+
+// Returns the smallest of the zero or more numbers given as input parameters
+```
+
+**`Math.random()`**
+```js
+let randomNumber = Math.random(); // e.g., 0.123456789
+
+// Returns a pseudo-random number between 0 (inclusive) and 1 (exclusive)
+```
+
+**`Math.sqrt(x)`**
+```js
+let squareRoot = Math.sqrt(16); // 4
+
+// Returns the square root of a number
+```
+
+**`Math.pow(base, exponent)`**
+```js
+let power = Math.pow(2, 3); // 8
+
+// Returns the base to the exponent power (i.e., base^exponent)
+```
+
+**`Math.trunc(x)`**
+```js
+let truncated = Math.trunc(4.9); // 4
+
+// Returns the integer part of a number by removing any fractional digits
+```
+
+**`Math.sign(x)`**
+```js
+let sign = Math.sign(-5); // -1
+
+// Returns the sign of a number, indicating whether the number is positive, negative, or zero
+```
+
+**`Math.sin(x), Math.cos(x), Math.tan(x)`**
+```js
+let sine = Math.sin(Math.PI / 2); // 1
+let cosine = Math.cos(0); // 1
+let tangent = Math.tan(Math.PI / 4); // 1
+
+// Return the sine, cosine, and tangent of a number (the argument is in radians)
+```
+
+**`Math.log(x), Math.log10(x)`**
+```js
+let naturalLog = Math.log(1); // 0
+let logBase10 = Math.log10(10); // 1
+
+// Returns the natural logarithm (base e) and the logarithm base 10 of a number
+```
+
+**Reference** : [mdn](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math) |
+[w3schools](https://www.w3schools.com/js/js_math.asp)
+
+<br/>
+
+## Date
+### What is Date object ?
+In JavaScript, We have a built-in `Date` object.<br/>
+We use it to get time.
+
+### Methods to access date
+We can create a new instance using date object as
+```js
+let date = new Date();
+
+console.log(date);
+```
+We can use the above object to extract any particular value
+```js
+// for getting year
+let year = date.getFullYear();
+
+console.log(year);
+
+// for getting date
+let today = date.getDate();
+
+console.log(today);
+
+// for getting month
+let month = date.getMonth() + 1;
+
+console.log(month);
+```
+> [!NOTE]\
+> `Date()` object uses an array of months as\
+> ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];\
+> Whenever we use `getMonth()` method it returns the index value of the month.\
+> To get the expected month number just **increment** it by one (`month += 1`) before using it.
+```js
+// for getting day
+let day = date.getDay() + 1;
+
+console.log(day);
+```
+> [!NOTE]\
+> As months, `Date()` object also has an array for days\
+> ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];\
+> We need to **increment** it by one (`day += 1`) before using it.
+```js
+// for getting hours
+let hours = date.getHours();
+
+console.log(hours);
+
+// for getting minutes
+let minutes = date.getgetMinutes();
+
+console.log(minutes);
+
+// for getting seconds
+let seconds = date.getSeconds();
+
+console.log(seconds);
+
+// for getting mili-seconds
+let miliseconds = date.getMilliseconds();
+
+console.log(miliseconds);
+
+// for getting localeString
+let localeString = now.toLocaleString();
+
+console.log(localeString);
+
+// for getting localeDateString
+let localeDateString = now.toLocaleDateString();
+
+console.log(localeDateString);
+
+// for getting localeTimeString
+let localeTimeString = now.toLocaleTimeString();
+
+console.log(localeTimeString);
+```
+
+**Reference** : [mdn](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date) |
+[w3schools](https://www.w3schools.com/jsref/jsref_obj_date.asp)
+
+<br/>
+
+## Contribute! 🤝
+This repository is open for collaboration, and your contributions are welcome! 🥰<br/>
+If you spot any error, have a suggestion, or want to add new content, feel free to submit a pull request.<br/>
+Let's make this guide a vibrant and up-to-date resource for the entire **JavaScript Aspirants**
+
+**Fork the Repository**<br/>
+Fork this repository to contribute and become a part of JavaScript-Collection
+
+### [Fork: JavaScript BrainStorming⚡](https://github.com/Ninja-Vikash/JavaScript-Collection/fork) 👈(Click here)
+
+**Clone repository**<br/>
+Clone your forked repository to your local machine using the `git clone` command.<br/>
+Replace `username` with your GitHub username.
 ```bash
+git clone https://github.com/username/JavaScript-BrainStorming.git
+```
+
+Create a new branch for your ideas named it as `new-idea`<br/>
+Make changes on your branch and push your changes using these commands.
+```bash
+git checkout -b new-idea
+
 git add .
 git commit -m "Brief description of your changes"
+
+git push origin new-idea
 ```
 
-**Push Changes**
-
-Push your changes to your forked repository on GitHub:
-```bash
-git push origin new-feature
-```
-
-#### Open to Collaborate 🤝
+#### Happy Coding 💖

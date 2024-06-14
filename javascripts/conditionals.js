@@ -38,45 +38,45 @@
  */
 
 function EligiblityCheck(...arg){
-    let PName = arg[0]
+    let voterName = arg[0]
     let age = arg[1]
 
     if(arg.length == 1){
-        console.log("Kindly pass your age as second argument")
+        console.log("Kindly pass your age as second argument");
     }
     else
     if(arg.length == 2){
-        if(typeof(PName)=="string"){
+        if(typeof(voterName)=="string"){
 
-            if(age < 0){
-                console.log("Please insert a valid age")
+            if(age > 0){
+                if (age < 18) {
+                    console.log(`${voterName}, You are not eligible for voting!`);
+                }
+                else
+                if(age >=18 && age <=65){
+                    console.log(`${voterName}, You are eligible for voting!`);
+                }
+                else 
+                if(age > 65){
+                    console.log(`${voterName}, You are eligible!`);
+                }
             }
             else{
-            if (age < 18) {
-                console.log(`${PName}, You are not eligible for voting!`)
-            }
-            else
-            if(age >=18 && age <=65){
-                console.log(`${PName}, You are eligible for voting!`);
-            }
-            else 
-            if(age > 65){
-                console.log(`${PName}, You are eligible!`)
-            }
+                console.log("Please insert a valid age");
             }
 
         }
         else{
-            console.log("Please enter your name as first argument")
+            console.log("Please pass your name as first argument");
         }
     }
     else
     if(arg.length > 2){
-        console.log("You have passed 3 arguments.")
+        console.log(`You have passed ${arg.length} arguments.`);
     }
 }
 
-EligiblityCheck("Vikash", 20)
+// EligiblityCheck("Vikash", 20)
 
 /**
  *  EligiblityCheck(_NAME_,_AGE_)
@@ -120,8 +120,8 @@ function workout(day){
     }
 }
 
-workout("FRI")
-workout("Thu")
+// workout("FRI")
+// workout("Thu")
 
 /**
  *  NOTE : Enter a valid day name to get your workout schedule
@@ -132,18 +132,29 @@ workout("Thu")
  *  TEST : Get exponential values of any single or a range
  */
 
-function power(expo, start, end) {
-    if (start == undefined) {
-      console.log("PASS SECOND ARGUMENT");
+function power(...args) {
+    let [expo, start, end] = args;
+
+    if(args.length > 3){
+        console.log("Pass only 3 or less arguments");
     }
-    else
-    if (end == undefined) {
-        console.log(`${start}^${expo} = ${Math.pow(start, expo)}`)
-    }
-    else {
-      for (let i = Math.min(start , end); i <= Math.max(start, end); i++) {
-        console.log(`${i}^${expo}= ${Math.pow(i, expo)}`)
-      }
+    else{
+        if (start != undefined && end != undefined) {
+            for (let i = Math.min(start , end); i <= Math.max(start, end); i++) {
+              console.log(`${i}^${expo}= ${Math.pow(i, expo)}`);
+            }
+          }
+          else
+          if(expo == undefined) {
+            console.log("Pass atleast two arguments");
+          }
+          else
+          if (start == undefined) {
+              console.log("Pass Second Argument");
+          }
+          else {
+              console.log(`${start}^${expo} = ${Math.pow(start, expo)}`);
+          }
     }
   }
   
