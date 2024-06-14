@@ -1,11 +1,12 @@
 ##### JavaScript Brainstorming 📚
 
 # Getting Started
-<img src="logo.png" height="70" align="left"/>
+<img src="logo.png" height="100" align="left"/>
 
 **Javascript** is one of the most important assets for **Web Developers.**<br/>
 But this is not very complicated language to understand 😮<br>
-To simplify the understanding of **JavaScript**, This repo will help and boost your knowledge in **JavaScript**💡
+To simplify the understanding of **JavaScript**<br/>
+This repo will help and boost your knowledge in **JavaScript**💡
 
 ### Content table
 - Core Concepts of JavaScript ⚡
