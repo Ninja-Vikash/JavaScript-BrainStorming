@@ -10,22 +10,22 @@ This repo will help and boost your knowledge in **JavaScript**💡
 
 ### Content table
 - Core Concepts of JavaScript ⚡
-    - What is JavaScript ?
-    - Features
-    - History
-    - Core of Programming
+    - [What is JavaScript ?](https://github.com/Ninja-Vikash/JavaScript-Collection/blob/main/README.md#what-is-javascript-)
+    - [Features](https://github.com/Ninja-Vikash/JavaScript-Collection/blob/main/README.md#features-of-javascript)
+    - [History](https://github.com/Ninja-Vikash/JavaScript-Collection/blob/main/README.md#history-of-javascript-)
+    - [Core of Programming](https://github.com/Ninja-Vikash/JavaScript-Collection/blob/main/README.md#core-of-programming-)
 - Jewels of JavaScript 💎
-    - Array
-    - Conditionals
-    - Class
-    - DOM (Data Object Model)
-    - Events
-    - Function
-    - Loop
-    - Math
-    - Objects
-    - Object Date
-- Exercises 🏋️‍♂️
+    - [Array](https://github.com/Ninja-Vikash/JavaScript-Collection/blob/main/README.md#array)
+    - [Class](https://github.com/Ninja-Vikash/JavaScript-Collection/blob/main/README.md#class)
+    - [Conditionals](https://github.com/Ninja-Vikash/JavaScript-Collection/blob/main/README.md#conditionals)
+    - [DOM (Data Object Model)](https://github.com/Ninja-Vikash/JavaScript-Collection/blob/main/README.md#dom)
+    - [Events](https://github.com/Ninja-Vikash/JavaScript-Collection/blob/main/README.md#events)
+    - [Function](https://github.com/Ninja-Vikash/JavaScript-Collection/blob/main/README.md#function)
+    - [Loop](https://github.com/Ninja-Vikash/JavaScript-Collection/blob/main/README.md#loop)
+    - [Math](https://github.com/Ninja-Vikash/JavaScript-Collection/blob/main/README.md#math)
+    - [Objects](https://github.com/Ninja-Vikash/JavaScript-Collection/blob/main/README.md#object)
+    - [Object Date](https://github.com/Ninja-Vikash/JavaScript-Collection/blob/main/README.md#date)
+- [Exercises](https://github.com/Ninja-Vikash/JavaScript-Collection/blob/main/README.md#exercises-%EF%B8%8F%EF%B8%8F) 🏋️‍♂️
 -  [Contribute](https://github.com/Ninja-Vikash/JavaScript-Collection/blob/main/README.md#contributions) 🤝<br/>
 Explore the contribution section for more information and guidance<br/> 
 How to contribute? 👆
