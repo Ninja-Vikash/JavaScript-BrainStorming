@@ -434,8 +434,8 @@ let arr8 = arr7.map((e) => e + 10);
 let arr9 = arr8.map((e) => e + 10);
 let arr10 = arr9.map((e) => e + 10);
 
-let finalArr = arr1.concat(...arr2,arr3,arr4,arr5,arr6,arr7,arr8,arr9,arr10);
-console.log(finalArr)
+let finalArr = arr1.concat(arr2,arr3,arr4,arr5,arr6,arr7,arr8,arr9,arr10);
+console.log(...finalArr)
 
 /**
  *  NOTE : For concatenation, I used the (...)spread operator
